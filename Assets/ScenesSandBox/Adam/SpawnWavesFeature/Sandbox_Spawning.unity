@@ -153,6 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 6502719529294355380, guid: df1b501e51880db429e5ac85db2bc8f9, type: 3}
   spawnZone: {fileID: 1649093058}
+  enemiesKilled: 0
+  wave2Done: 0
 --- !u!4 &1035573760
 Transform:
   m_ObjectHideFlags: 0
@@ -194,7 +196,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090141746}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1090141748
 Camera:
   m_ObjectHideFlags: 0
