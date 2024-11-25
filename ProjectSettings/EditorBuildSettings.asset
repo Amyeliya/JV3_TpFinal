@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/JeuScene1.unity
+    path: Assets/ScenesSandBox/AmyeliyaSandBoxAssets/TowerDefence_Vsquad/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: df22e89c5b1490f47bade77b5dc115fe,
