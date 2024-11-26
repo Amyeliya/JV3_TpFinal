@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd25608b4b35c6a4fa0476c1e3159d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerData: {fileID: 0}
   targetTag: Enemy
   detectionRange: 10
   projectilePrefab: {fileID: 0}
@@ -313,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd25608b4b35c6a4fa0476c1e3159d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerData: {fileID: 0}
   targetTag: Enemy
   detectionRange: 10
   projectilePrefab: {fileID: 0}
@@ -588,11 +590,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd25608b4b35c6a4fa0476c1e3159d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerData: {fileID: 11400000, guid: 8896ee7c1a385cf4488d33691e1e646e, type: 2}
   targetTag: Enemy
   detectionRange: 10
   projectilePrefab: {fileID: 126811185}
   launchPoint: {fileID: 1112814886}
-  projectileSpeed: 10
+  projectileSpeed: 50
   fireInterval: 1
 --- !u!136 &1421618801
 CapsuleCollider:
@@ -937,6 +940,11 @@ PrefabInstance:
     - target: {fileID: 6031743112273857180, guid: 64c90d892c4183746b7246bcc8675b9c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142999554333178191, guid: 64c90d892c4183746b7246bcc8675b9c,
+        type: 3}
+      propertyPath: m_ProvidesContacts
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6736966755343016922, guid: 64c90d892c4183746b7246bcc8675b9c,

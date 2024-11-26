@@ -13,5 +13,10 @@ public class TowerData : ScriptableObject
     [SerializeField] public Transform currentTarget;
     [SerializeField] public bool projectileLaunched = false;
 
+    public void TakeDamage()
+    {
+        healthPoints -= 15;
+        Debug.Log(healthPoints);
+    }
     
 }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class TowerManager : MonoBehaviour
 {
 
+    public TowerData towerData;
+
 
     [Header("Detection Settings")]
     [Tooltip("Le tag des cibles à détecter.")]
