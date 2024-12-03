@@ -12,8 +12,11 @@ public class EnemyManager : MonoBehaviour
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
         if (enemyData.isRangedEnemy == true)
         {
-            Debug.Log(" in Start, enemy is ranged bool is true");
             enemyHealth = enemyData.defaultRangedEnemyHealth;
+        }
+        if (enemyData.isPlaneEnemy)
+        {
+            enemyHealth = enemyData.defaultAirEnemyHealth;
         }
         else
         {

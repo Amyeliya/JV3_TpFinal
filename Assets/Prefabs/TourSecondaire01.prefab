@@ -7157,6 +7157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95359dc04779ad746ba0d69e6826e99a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetTag: Enemy
+  detectionRange: 10
 --- !u!1 &5915647864089749242
 GameObject:
   m_ObjectHideFlags: 0
@@ -9739,8 +9741,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8348827, y: 3.796597, z: 1.792153}
-  m_Center: {x: 0.041434467, y: 1.3982986, z: -0.12501206}
+  m_Size: {x: 2.7868426, y: 4.2097487, z: 2.7447667}
+  m_Center: {x: 0.16362478, y: 1.6048741, z: -0.058915813}
 --- !u!1 &7955765804951349541
 GameObject:
   m_ObjectHideFlags: 0
