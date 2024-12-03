@@ -15,8 +15,9 @@ public class AllyProjectileManager : MonoBehaviour
         {
             Debug.Log("Collided with an object tagged as 'Enemy'");
             EnemyManager enemyManager = other.gameObject.GetComponent<EnemyManager>();
-            Debug.Log("collided enemy health value is : " + enemyManager.enemyData.enemyHealth);
+            Debug.Log("collided ally health value is : " + enemyManager.enemyData.enemyHealth);
             enemyManager.enemyData.enemyHealth -= allyProjectileData.enemyDamaging;
+            Destroy(gameObject);
         }
         /*Debug.Log("Collided with: " + other.gameObject.name);
         

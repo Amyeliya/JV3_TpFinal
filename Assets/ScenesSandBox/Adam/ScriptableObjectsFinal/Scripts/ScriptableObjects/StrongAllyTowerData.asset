@@ -18,3 +18,7 @@ MonoBehaviour:
   projectileSpeed: 150
   allyProjectilePrefab: {fileID: 996297298497693664, guid: 3acbe379ff18ee4409f7c94bc1fb8003,
     type: 3}
+  isStrongAlly: 1
+  isWeakAlly: 0
+  weakAllyTowerHealth: 210
+  strongAllyTowerHealth: 475

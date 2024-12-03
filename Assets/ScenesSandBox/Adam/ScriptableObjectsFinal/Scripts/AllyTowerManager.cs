@@ -9,7 +9,30 @@ public class AllyTowerManager : MonoBehaviour
 
     private void Start() {
         DeclareSelfData();
+        if (allyData.isStrongAlly == true)
+        {
+            allyData.allyHealth = allyData.defaultStrongAllyTowerHealth;
+        }
+        else
+        {
+            allyData.allyHealth = allyData.defaultWeakAllyTowerHealth;
+        }
     }
+    /*
+    private void Start() {
+    Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
+        if (enemyData.isRangedEnemy == true)
+        {
+            Debug.Log(" in Start, enemy is ranged bool is true");
+            enemyData.enemyHealth = enemyData.defaultRangedEnemyHealth;
+        }
+        else
+        {
+            detectionRange = 0f;
+            enemyData.enemyHealth = enemyData.defaultKamikazeEnemyHealth;
+        }
+    }
+    */
 
     private void DeclareSelfData()
     {
@@ -53,6 +76,10 @@ public class AllyTowerManager : MonoBehaviour
         {
             LaunchProjectile(nearestTarget);
             fireCooldown = fireInterval;
+        }
+        if (allyData.allyHealth <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

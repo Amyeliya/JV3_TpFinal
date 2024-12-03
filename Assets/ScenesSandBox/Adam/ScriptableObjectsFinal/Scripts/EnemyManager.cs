@@ -11,17 +11,20 @@ public class EnemyManager : MonoBehaviour
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
         if (enemyData.isRangedEnemy == true)
         {
+            Debug.Log(" in Start, enemy is ranged bool is true");
             enemyData.enemyHealth = enemyData.defaultRangedEnemyHealth;
         }
         else
         {
+            detectionRange = 0f;
             enemyData.enemyHealth = enemyData.defaultKamikazeEnemyHealth;
         }
     }
 
-    
-    /*if (enemyData.isRangedEnemy == true)
-    {
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+
     [Header("Detection Settings")]
     [Tooltip("Le tag des cibles à détecter.")]
     public string targetTag = "Ally";
@@ -34,7 +37,7 @@ public class EnemyManager : MonoBehaviour
     public GameObject projectilePrefab;
 
     [Tooltip("Position de départ du projectile.")]
-    public Transform launchPoint;
+    public Transform enemyLaunchPoint;
 
     [Tooltip("Vitesse du projectile.")]
     public float projectileSpeed = 10f;
@@ -46,6 +49,7 @@ public class EnemyManager : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log("Update dans enemymanager pour shooter called");
         fireCooldown -= Time.deltaTime;
 
         GameObject nearestTarget = FindNearestTarget();
@@ -53,6 +57,10 @@ public class EnemyManager : MonoBehaviour
         {
             LaunchProjectile(nearestTarget);
             fireCooldown = fireInterval;
+        }
+        if (enemyData.enemyHealth <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 
@@ -62,6 +70,7 @@ public class EnemyManager : MonoBehaviour
     /// <returns>L'objet le plus proche, ou null s'il n'y en a pas.</returns>
     GameObject FindNearestTarget()
     {
+        
         GameObject[] targets = GameObject.FindGameObjectsWithTag(targetTag);
         GameObject nearestTarget = null;
         float shortestDistance = Mathf.Infinity;
@@ -85,10 +94,10 @@ public class EnemyManager : MonoBehaviour
     /// <param name="target">La cible à attaquer.</param>
     void LaunchProjectile(GameObject target)
     {
-        if (projectilePrefab != null && launchPoint != null)
+        if (projectilePrefab != null && enemyLaunchPoint != null)
         {
-            GameObject projectile = Instantiate(projectilePrefab, launchPoint.position, Quaternion.identity);
-            Vector3 direction = (target.transform.position - launchPoint.position).normalized;
+            GameObject projectile = Instantiate(projectilePrefab, enemyLaunchPoint.position, Quaternion.identity);
+            Vector3 direction = (target.transform.position - enemyLaunchPoint.position).normalized;
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
             if (rb != null)
             {
@@ -96,5 +105,4 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
-        }*/
 }
