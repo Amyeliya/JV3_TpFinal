@@ -7070,6 +7070,7 @@ GameObject:
   - component: {fileID: 7706783048886351146}
   - component: {fileID: 1979562184691170453}
   - component: {fileID: 7540178409459828299}
+  - component: {fileID: 6200109648100114171}
   m_Layer: 0
   m_Name: HM_cannon_pivot1
   m_TagString: Untagged
@@ -7144,6 +7145,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6200109648100114171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841710800869857515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95359dc04779ad746ba0d69e6826e99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5915647864089749242
 GameObject:
   m_ObjectHideFlags: 0
@@ -9699,6 +9712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allyData: {fileID: 11400000, guid: aa2b291e195ce1447b090226a0db8f27, type: 2}
+  allyHealth: 0
   targetTag: Enemy
   detectionRange: 25
   projectilePrefab: {fileID: 1240887441953726, guid: 8a976dcd328a4664c85144f33b9c46b0,
