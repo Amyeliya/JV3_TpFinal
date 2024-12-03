@@ -9,6 +9,7 @@ TagManager:
   - Tank
   - enemyBug
   - Enemy
+  - Ally
   layers:
   - Default
   - TransparentFX
