@@ -827,8 +827,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639544156}
-  - component: {fileID: 639544154}
   - component: {fileID: 639544157}
+  - component: {fileID: 639544158}
   m_Layer: 0
   m_Name: CastorSpawner
   m_TagString: Untagged
@@ -836,24 +836,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &639544154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639544153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9ecf6f0ba8d24647a55645967d97180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnTimer: 1
-  prefabToSpawn: {fileID: 8315472154489165585, guid: 1e6440297792a3c448a6968e1cc96554,
-    type: 3}
-  minEdgeDistance: 0.3
-  spawnLabels: 9
-  spawnTry: 1000
 --- !u!4 &639544156
 Transform:
   m_ObjectHideFlags: 0
@@ -881,13 +863,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnOnStart: 1
-  SpawnObject: {fileID: 8315472154489165585, guid: 1e6440297792a3c448a6968e1cc96554,
+  SpawnOnStart: 2
+  SpawnObject: {fileID: 8315472154489165585, guid: df0879f8ca2773747bd26e3e3a80aa40,
     type: 3}
   SpawnAmount: 8
   MaxIterations: 1000
   SpawnLocations: 3
-  Labels: 9
+  Labels: 1
+  CheckOverlaps: 1
+  OverrideBounds: -1
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  SurfaceClearanceDistance: 0.1
+--- !u!114 &639544158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639544153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 2
+  SpawnObject: {fileID: 340973427222162399, guid: 85f2e6bee59210648b3e64c2f33eb4ac,
+    type: 3}
+  SpawnAmount: 8
+  MaxIterations: 1000
+  SpawnLocations: 3
+  Labels: 1
   CheckOverlaps: 1
   OverrideBounds: -1
   LayerMask:
@@ -1332,6 +1339,104 @@ Transform:
   - {fileID: 646127379}
   m_Father: {fileID: 1973511218}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &961678319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7570530594498387477, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: fireInterval
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570530594498387477, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: detectionRange
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570530594498387477, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: projectileSpeed
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950897509724691795, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_Name
+      value: TourSecondaire01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.766
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720384633265412680, guid: e556db10cdb2fbd4b95389def33a0c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e556db10cdb2fbd4b95389def33a0c09, type: 3}
 --- !u!1 &1028220530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,7 +3372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d607ba0c0320e446ba9d62671d9d7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnOnStart: 1
+  SpawnOnStart: 2
   SeedValue: 0
   PrefabsToSpawn:
   - Labels: 65522
@@ -3478,7 +3583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2145195850
 Transform:
   m_ObjectHideFlags: 0
@@ -3507,3 +3612,4 @@ SceneRoots:
   - {fileID: 1902754330}
   - {fileID: 651159873}
   - {fileID: 1973511218}
+  - {fileID: 961678319}

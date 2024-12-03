@@ -15,15 +15,16 @@ public class AllyProjectileManager : MonoBehaviour
         {
             Debug.Log("Collided with an object tagged as 'Enemy'");
             EnemyManager enemyManager = other.gameObject.GetComponent<EnemyManager>();
-            Debug.Log("collided ally health value is : " + enemyManager.enemyData.enemyHealth);
-            enemyManager.enemyData.enemyHealth -= allyProjectileData.enemyDamaging;
-            Destroy(gameObject);
+            Debug.Log("collided enemy health value is : " + enemyManager.enemyHealth);
+            enemyManager.enemyHealth -= allyProjectileData.enemyDamaging;
         }
-        /*Debug.Log("Collided with: " + other.gameObject.name);
-        
-        Debug.Log("enemy script reference is : " + enemyManager);*/
+        Invoke("DestroySelf", 2f);
 
-       //allyProjectileDamageValue = allyProjectileData.enemyDamaging;
-       
+
+    }
+
+    private void DestroySelf()
+    {
+        Destroy(gameObject);
     }
 }
