@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 4942188870512540490}
-  speed: 1
+  speed: 0.1
 --- !u!195 &4942188870512540490
 NavMeshAgent:
   m_ObjectHideFlags: 0
