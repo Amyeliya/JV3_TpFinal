@@ -7,15 +7,22 @@ public class AllyProjectileManager : MonoBehaviour
 
     [SerializeField] public AllyProjectileData allyProjectileData;
 
-    private void Awake() {
-        Debug.Log("current Ally projectile damage value is : " + allyProjectileData.enemyDamaging);
-    } 
+     
 
-    /*private void OnCollisionEnter(Collision other) 
+    private void OnCollisionEnter(Collision other) 
     {
-        EnemyManager enemyManager = other.gameObject.GetComponent<EnemyManager>();
-        Debug.Log("collided enemy health value is : " + enemyManager.enemyData.enemyHealth);
-        Debug.Log("enemy script reference is : " + enemyManager);
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Collided with an object tagged as 'Enemy'");
+            EnemyManager enemyManager = other.gameObject.GetComponent<EnemyManager>();
+            Debug.Log("collided enemy health value is : " + enemyManager.enemyData.enemyHealth);
+            enemyManager.enemyData.enemyHealth -= allyProjectileData.enemyDamaging;
+        }
+        /*Debug.Log("Collided with: " + other.gameObject.name);
+        
+        Debug.Log("enemy script reference is : " + enemyManager);*/
+
+       //allyProjectileDamageValue = allyProjectileData.enemyDamaging;
        
-    }*/
+    }
 }

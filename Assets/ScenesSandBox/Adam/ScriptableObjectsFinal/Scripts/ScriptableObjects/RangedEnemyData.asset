@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 366288f10b84fc647a4eca7e15630e3e, type: 3}
   m_Name: RangedEnemyData
   m_EditorClassIdentifier: 
-  enemyHealth: 250
+  enemyHealth: 105
   fireRate: 0
   movementSpeed: 0
+  defaultKamikazeEnemyHealth: 135
+  defaultRangedEnemyHealth: 350
+  isRangedEnemy: 1
+  isKamikazeEnemy: 0
