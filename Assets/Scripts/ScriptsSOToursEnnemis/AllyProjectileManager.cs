@@ -17,8 +17,9 @@ public class AllyProjectileManager : MonoBehaviour
             EnemyManager enemyManager = other.gameObject.GetComponent<EnemyManager>();
             Debug.Log("collided enemy health value is : " + enemyManager.enemyHealth);
             enemyManager.enemyHealth -= allyProjectileData.enemyDamaging;
+            Destroy(gameObject);
         }
-        Invoke("DestroySelf", 2f);
+        Invoke("DestroySelf", 1f);
 
 
     }

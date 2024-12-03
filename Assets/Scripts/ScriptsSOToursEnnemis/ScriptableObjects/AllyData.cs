@@ -6,7 +6,6 @@ using UnityEngine;
 public class AllyData : ScriptableObject
 {
     
-    [SerializeField] public int allyHealth;
     [SerializeField] public float fireDelay;
     [SerializeField] public float targetingRadius;
     [SerializeField] public float projectileSpeed;
