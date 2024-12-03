@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 136522884417654972}
   - component: {fileID: 54256439225926448}
   m_Layer: 0
-  m_Name: GB_piercer_rocket
+  m_Name: FeuArtifice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

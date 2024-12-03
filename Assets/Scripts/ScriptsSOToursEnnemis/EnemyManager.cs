@@ -6,18 +6,19 @@ public class EnemyManager : MonoBehaviour
 {
 
     [SerializeField] public EnemyData enemyData;
+    [SerializeField] public int enemyHealth = 225;
 
     private void Start() {
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
         if (enemyData.isRangedEnemy == true)
         {
             Debug.Log(" in Start, enemy is ranged bool is true");
-            enemyData.enemyHealth = enemyData.defaultRangedEnemyHealth;
+            enemyHealth = enemyData.defaultRangedEnemyHealth;
         }
         else
         {
             detectionRange = 0f;
-            enemyData.enemyHealth = enemyData.defaultKamikazeEnemyHealth;
+            enemyHealth = enemyData.defaultKamikazeEnemyHealth;
         }
     }
 
@@ -58,7 +59,7 @@ public class EnemyManager : MonoBehaviour
             LaunchProjectile(nearestTarget);
             fireCooldown = fireInterval;
         }
-        if (enemyData.enemyHealth <= 0)
+        if (enemyHealth <= 0)
         {
             Destroy(gameObject);
         }

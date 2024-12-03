@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 2729441599610575930}
   - component: {fileID: 4942188870512540490}
   m_Layer: 0
-  m_Name: CastorEnnemi
+  m_Name: CastorEnnemiAncien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

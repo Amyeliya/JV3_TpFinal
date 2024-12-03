@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyData : ScriptableObject
 {
     
-    [SerializeField] public int enemyHealth;
+    
     [SerializeField] public float fireRate;
     [SerializeField] public float movementSpeed;
     [SerializeField] public bool isRangedEnemy = false;

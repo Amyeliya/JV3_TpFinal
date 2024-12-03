@@ -12,7 +12,7 @@ private void OnCollisionEnter(Collision other)
         {
             Debug.Log("Collided with an object tagged as 'Ally'");
             AllyTowerManager allyManager = other.gameObject.GetComponent<AllyTowerManager>();
-            Debug.Log("collided enemy health value is : " + allyManager.allyData.allyHealth);
+            Debug.Log("collided ally health value is : " + allyManager.allyData.allyHealth);
             allyManager.allyData.allyHealth -= enemyProjectileData.allyDamaging;
             Destroy(gameObject);
         }
