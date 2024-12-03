@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StrongAllyTowerData
   m_EditorClassIdentifier: 
   allyHealth: 175
-  fireDelay: 0.1
+  fireDelay: 0.4
   targetingRadius: 30
   projectileSpeed: 150
   allyProjectilePrefab: {fileID: 996297298497693664, guid: 3acbe379ff18ee4409f7c94bc1fb8003,

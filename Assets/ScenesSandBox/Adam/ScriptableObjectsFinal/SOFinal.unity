@@ -488,8 +488,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 996297298497693664, guid: 3acbe379ff18ee4409f7c94bc1fb8003,
     type: 3}
   launchPoint: {fileID: 1174644157}
-  projectileSpeed: 100
-  fireInterval: 0.1
+  projectileSpeed: 40
+  fireInterval: 0.5
 --- !u!1 &661132024
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
     type: 3}
   launchPoint: {fileID: 856268635}
   projectileSpeed: 15
-  fireInterval: 0.8
+  fireInterval: 1
 --- !u!136 &866092514
 CapsuleCollider:
   m_ObjectHideFlags: 0
