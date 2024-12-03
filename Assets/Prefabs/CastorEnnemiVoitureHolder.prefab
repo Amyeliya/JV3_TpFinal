@@ -224,8 +224,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1671755515868446779, guid: 01dffedf283546f438a456f026909f63,
     type: 3}
   enemyLaunchPoint: {fileID: 3931458358015183672}
-  projectileSpeed: 5
-  fireInterval: 5
+  projectileSpeed: 20
+  fireInterval: 1.5
 --- !u!114 &6000943494812042394
 MonoBehaviour:
   m_ObjectHideFlags: 0

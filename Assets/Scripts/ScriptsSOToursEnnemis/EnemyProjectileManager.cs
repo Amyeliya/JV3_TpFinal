@@ -12,10 +12,13 @@ private void OnCollisionEnter(Collision other)
         {
             Debug.Log("Collided with an object tagged as 'Ally'");
             AllyTowerManager allyManager = other.gameObject.GetComponent<AllyTowerManager>();
-            Debug.Log("collided ally health value is : " + allyManager.allyData.allyHealth);
-            allyManager.allyData.allyHealth -= enemyProjectileData.allyDamaging;
+            Debug.Log("collided ally health value is : " + allyManager.allyHealth);
+            allyManager.allyHealth -= enemyProjectileData.allyDamaging;
             Destroy(gameObject);
         }
+        Invoke("DestroySelf", 1f);
+
+    
         /*Debug.Log("Collided with: " + other.gameObject.name);
         
         Debug.Log("enemy script reference is : " + enemyManager);*/
@@ -23,5 +26,8 @@ private void OnCollisionEnter(Collision other)
        //allyProjectileDamageValue = allyProjectileData.enemyDamaging;
        
     }
-
+private void DestroySelf()
+    {
+        Destroy(gameObject);
+    }
 }

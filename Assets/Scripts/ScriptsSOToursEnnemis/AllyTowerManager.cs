@@ -6,16 +6,18 @@ public class AllyTowerManager : MonoBehaviour
 {
 
     [SerializeField] public AllyData allyData;
+    
+    [SerializeField] public int allyHealth;
 
     private void Start() {
         DeclareSelfData();
         if (allyData.isStrongAlly == true)
         {
-            allyData.allyHealth = allyData.defaultStrongAllyTowerHealth;
+            allyHealth = allyData.defaultStrongAllyTowerHealth;
         }
         else
         {
-            allyData.allyHealth = allyData.defaultWeakAllyTowerHealth;
+            allyHealth = allyData.defaultWeakAllyTowerHealth;
         }
     }
     /*
@@ -77,7 +79,7 @@ public class AllyTowerManager : MonoBehaviour
             LaunchProjectile(nearestTarget);
             fireCooldown = fireInterval;
         }
-        if (allyData.allyHealth <= 0)
+        if (allyHealth <= 0)
         {
             Destroy(gameObject);
         }
