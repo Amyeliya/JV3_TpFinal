@@ -1190,8 +1190,7 @@ MonoBehaviour:
   enemyHealth: 225
   targetTag: Ally
   detectionRange: 10
-  projectilePrefab: {fileID: 6465713029404651634, guid: c2ec273c17721564d90837a50e95b106,
-    type: 3}
+  projectilePrefab: {fileID: 0}
   enemyLaunchPoint: {fileID: 5495892151447460519}
   projectileSpeed: 10
   fireInterval: 1

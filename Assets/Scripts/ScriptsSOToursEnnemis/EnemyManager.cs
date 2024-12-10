@@ -10,15 +10,17 @@ public class EnemyManager : MonoBehaviour
 
     private void Start() {
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
+        detectionRange = 100f;
         if (enemyData.isRangedEnemy == true)
         {
             enemyHealth = enemyData.defaultRangedEnemyHealth;
+            detectionRange = 100f;
         }
         if (enemyData.isPlaneEnemy)
         {
             enemyHealth = enemyData.defaultAirEnemyHealth;
         }
-        else
+        if (enemyData.isKamikazeEnemy)
         {
             detectionRange = 0f;
             enemyHealth = enemyData.defaultKamikazeEnemyHealth;
@@ -57,6 +59,7 @@ public class EnemyManager : MonoBehaviour
         fireCooldown -= Time.deltaTime;
 
         GameObject nearestTarget = FindNearestTarget();
+        
         if (nearestTarget != null && fireCooldown <= 0f)
         {
             LaunchProjectile(nearestTarget);
@@ -74,6 +77,7 @@ public class EnemyManager : MonoBehaviour
     /// <returns>L'objet le plus proche, ou null s'il n'y en a pas.</returns>
     GameObject FindNearestTarget()
     {
+        
         
         GameObject[] targets = GameObject.FindGameObjectsWithTag(targetTag);
         GameObject nearestTarget = null;
@@ -105,8 +109,19 @@ public class EnemyManager : MonoBehaviour
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
             if (rb != null)
             {
+                
                 rb.velocity = direction * projectileSpeed;
             }
         }
+    }
+    private void OnCollisionEnter()
+    {
+
+    }
+    private void OnCollisionEnter(Collision other) {
+        if (enemyData.isKamikazeEnemy)
+        {
+            
+        }        
     }
 }

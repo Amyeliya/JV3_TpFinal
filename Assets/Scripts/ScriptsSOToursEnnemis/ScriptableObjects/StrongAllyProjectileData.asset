@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f999e8d6847fa4c89c726e4db73a31, type: 3}
   m_Name: StrongAllyProjectileData
   m_EditorClassIdentifier: 
-  enemyDamaging: 35
+  enemyDamaging: 150

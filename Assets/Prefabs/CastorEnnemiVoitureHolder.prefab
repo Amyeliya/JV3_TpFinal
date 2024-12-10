@@ -224,8 +224,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1671755515868446779, guid: 01dffedf283546f438a456f026909f63,
     type: 3}
   enemyLaunchPoint: {fileID: 3931458358015183672}
-  projectileSpeed: 20
-  fireInterval: 1.5
+  projectileSpeed: 30
+  fireInterval: 1
 --- !u!114 &6000943494812042394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2051,7 +2051,7 @@ Transform:
   m_GameObject: {fileID: 8447993342621350118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.53, y: 0.892, z: 0.353}
+  m_LocalPosition: {x: -0.53, y: 1.65, z: 0.172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
