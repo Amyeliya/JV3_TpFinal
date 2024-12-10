@@ -9721,7 +9721,7 @@ MonoBehaviour:
     type: 3}
   launchPoint: {fileID: 2825287533836264001}
   projectileSpeed: 10
-  fireInterval: 4
+  fireInterval: 2.4
 --- !u!65 &7719041956216855792
 BoxCollider:
   m_ObjectHideFlags: 0
