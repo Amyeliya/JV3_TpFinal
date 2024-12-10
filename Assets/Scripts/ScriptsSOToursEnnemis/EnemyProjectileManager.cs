@@ -16,7 +16,7 @@ private void OnCollisionEnter(Collision other)
             allyManager.allyHealth -= enemyProjectileData.allyDamaging;
             Destroy(gameObject);
         }
-        Invoke("DestroySelf", 1f);
+        Invoke("DestroySelf", 0.2f);
 
     
         /*Debug.Log("Collided with: " + other.gameObject.name);
