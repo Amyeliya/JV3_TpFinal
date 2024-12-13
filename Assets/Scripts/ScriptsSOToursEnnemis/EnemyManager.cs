@@ -25,6 +25,7 @@ public class EnemyManager : MonoBehaviour
             detectionRange = 0f;
             enemyHealth = enemyData.defaultKamikazeEnemyHealth;
         }
+
     }
 
     /// <summary>
@@ -52,6 +53,7 @@ public class EnemyManager : MonoBehaviour
     public float fireInterval = 1f;
 
     private float fireCooldown;
+    //private GameObject particleSystem = GetComponent<ParticleSystem>();
 
     void Update()
     {
@@ -67,6 +69,7 @@ public class EnemyManager : MonoBehaviour
         }
         if (enemyHealth <= 0)
         {
+            //particleSystem.Play();
             Destroy(gameObject);
         }
     }
