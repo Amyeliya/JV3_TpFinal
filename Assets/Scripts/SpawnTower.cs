@@ -11,7 +11,7 @@ public class SpawnTower : MonoBehaviour
     [SerializeField] private Transform rayStartPoint;
 
     [Tooltip("Longueur maximale du rayon.")]
-    [SerializeField] private float rayLength = 8.0f;
+    [SerializeField] private float rayLength = 20.0f;
 
     [Tooltip("Filtre des �tiquettes des ancres � d�tecter.")]
     [SerializeField] private MRUKAnchor.SceneLabels labelFlag;

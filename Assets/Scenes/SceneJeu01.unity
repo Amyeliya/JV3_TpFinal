@@ -9280,7 +9280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &651159870
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28423,9 +28423,18 @@ MonoBehaviour:
   SpawnOnStart: 2
   SeedValue: 0
   PrefabsToSpawn:
-  - Labels: 65522
+  - Labels: 8088
     Prefabs:
     - {fileID: 3366432057441396632, guid: 3d82fb7a055d02348b5737132278cecf, type: 3}
+    PrefabSelection: 0
+    MatchAspectRatio: 0
+    CalculateFacingDirection: 0
+    Scaling: 0
+    Alignment: 0
+    IgnorePrefabSize: 0
+  - Labels: 1
+    Prefabs:
+    - {fileID: 3366432057441396632, guid: 32d258eb3a69314409332b455ae08f21, type: 3}
     PrefabSelection: 0
     MatchAspectRatio: 0
     CalculateFacingDirection: 0
