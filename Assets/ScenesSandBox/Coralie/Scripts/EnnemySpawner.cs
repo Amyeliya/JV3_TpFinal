@@ -29,6 +29,7 @@ public class EnnemySpawner : MonoBehaviour
        
         spawnPositions.SpawnAmount = 1;
         spawnPositions.StartSpawn();
+        
     }
  
         // Générer une position aléatoire dans la zone de spawn
