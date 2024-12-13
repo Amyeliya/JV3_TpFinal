@@ -8,6 +8,7 @@ public class AllyTowerManager : MonoBehaviour
     [SerializeField] public AllyData allyData;
     
     [SerializeField] public int allyHealth;
+    [SerializeField] private GameObject turretDisappear;
 
     private void Start() {
         DeclareSelfData();
@@ -116,6 +117,7 @@ public class AllyTowerManager : MonoBehaviour
     {
         if (projectilePrefab != null && launchPoint != null)
         {
+            turretDisappear.SetActive(false);
             GameObject projectile = Instantiate(projectilePrefab, launchPoint.position, Quaternion.identity);
             Vector3 direction = (target.transform.position - launchPoint.position).normalized;
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
@@ -123,8 +125,14 @@ public class AllyTowerManager : MonoBehaviour
             {
                 rb.velocity = direction * projectileSpeed;
             }
+            Invoke("TurretReappear", 0.4f);
         }
     }
+    void TurretReappear()
+    {
+        turretDisappear.SetActive(true);
+    }
+    
 
 
 }
