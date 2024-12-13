@@ -11,7 +11,9 @@ public class EnnemySpawner : MonoBehaviour
     // [SerializeField] private float spawnHeight = 10f;  // Hauteur où l'avion doit apparaître
  
     [SerializeField] private FindSpawnPositions spawnPositions;
-
+    
+   [SerializeField] private enemySpawner gameManager;
+    
  
  
     void Awake()
@@ -26,9 +28,10 @@ public class EnnemySpawner : MonoBehaviour
  
     public void SpawnAvion()
     {
-       
         spawnPositions.SpawnAmount = 1;
         spawnPositions.StartSpawn();
+        gameManager.enemyCount ++;
+        Debug.Log(gameManager.enemyCount);
         
     }
  
