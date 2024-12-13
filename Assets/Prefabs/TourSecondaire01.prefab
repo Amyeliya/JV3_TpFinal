@@ -9715,6 +9715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allyData: {fileID: 11400000, guid: aa2b291e195ce1447b090226a0db8f27, type: 2}
   allyHealth: 0
+  turretDisappear: {fileID: 3620539069692877192}
   targetTag: Enemy
   detectionRange: 25
   projectilePrefab: {fileID: 1240887441953726, guid: 8a976dcd328a4664c85144f33b9c46b0,

@@ -12,6 +12,6 @@ public class AllyData : ScriptableObject
     [SerializeField] public GameObject allyProjectilePrefab;
     [SerializeField] public bool isStrongAlly = false;
     [SerializeField] public bool isWeakAlly = false;
-    public int defaultWeakAllyTowerHealth = 210;
-    public int defaultStrongAllyTowerHealth = 475;
+    public int defaultWeakAllyTowerHealth = 500;
+    public int defaultStrongAllyTowerHealth = 1500;
 }
