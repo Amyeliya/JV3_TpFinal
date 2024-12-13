@@ -7,6 +7,7 @@ public class EnemyManager : MonoBehaviour
 
     [SerializeField] public EnemyData enemyData;
     [SerializeField] public int enemyHealth = 225;
+    [SerializeField] public LevelData levelData;
 
     private void Start() {
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
@@ -70,6 +71,7 @@ public class EnemyManager : MonoBehaviour
         if (enemyHealth <= 0)
         {
             //particleSystem.Play();
+            levelData.score +=5;
             Destroy(gameObject);
         }
     }

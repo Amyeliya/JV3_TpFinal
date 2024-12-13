@@ -1240,6 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 5ce24dc49b0281f4dbd78b116c074dd1, type: 2}
   enemyHealth: 225
+  levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
   targetTag: Ally
   detectionRange: 10
   projectilePrefab: {fileID: 3423794890301540528, guid: eeeaf20df04cc5345b422e8038ffb0a5,
