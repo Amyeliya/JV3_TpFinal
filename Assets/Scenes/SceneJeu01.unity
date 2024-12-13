@@ -8495,7 +8495,7 @@ GameObject:
   - component: {fileID: 639544159}
   m_Layer: 0
   m_Name: CastorSpawner
-  m_TagString: Untagged
+  m_TagString: CastorSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8530,7 +8530,7 @@ MonoBehaviour:
   SpawnOnStart: 2
   SpawnObject: {fileID: 8315472154489165585, guid: df0879f8ca2773747bd26e3e3a80aa40,
     type: 3}
-  SpawnAmount: 8
+  SpawnAmount: 0
   MaxIterations: 1000
   SpawnLocations: 3
   Labels: 1
@@ -8547,13 +8547,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639544153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64e73ba35b4f3464fbe4e827503a0109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPositions: {fileID: 639544157}
-  gameManager: {fileID: 698953532}
+  gameManager: {fileID: 698953535}
 --- !u!114 &639544160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8567,7 +8567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ennemySpawner: {fileID: 639544159}
-  gameManager: {fileID: 698953531}
+  _enemySpawner: {fileID: 698953535}
+  gameManager: {fileID: 698953533}
 --- !u!1 &641968925
 GameObject:
   m_ObjectHideFlags: 0
@@ -9385,33 +9386,14 @@ GameObject:
   m_Component:
   - component: {fileID: 698953534}
   - component: {fileID: 698953533}
-  - component: {fileID: 698953532}
+  - component: {fileID: 698953535}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &698953532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698953531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8522e418f842fa94084babb9489719a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interval: 0.2
-  enemyCount: 0
-  enemiesSpawning: 1
-  enemiesKilled: 0
-  wave2Done: 0
-  ennemySpawnerCastor: {fileID: 639544159}
-  ennemySpawnerCamion: {fileID: 1919135123}
 --- !u!114 &698953533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9424,6 +9406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770fbb2348d7e184aa5736ef6281d0de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamefirstStart: 0
 --- !u!4 &698953534
 Transform:
   m_ObjectHideFlags: 0
@@ -9439,6 +9422,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &698953535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698953531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8522e418f842fa94084babb9489719a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interval: 0.2
+  enemyCount: 0
+  enemiesSpawning: 1
+  enemiesKilled: 0
+  wave2Done: 1
+  ennemySpawnerCastor: {fileID: 639544159}
+  ennemySpawnerCamion: {fileID: 1919135123}
+  levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
 --- !u!1 &698960502
 GameObject:
   m_ObjectHideFlags: 0
@@ -26029,7 +26032,7 @@ GameObject:
   - component: {fileID: 1919135123}
   m_Layer: 0
   m_Name: CamionSpawner
-  m_TagString: Untagged
+  m_TagString: CamionSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26041,13 +26044,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919135122}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64e73ba35b4f3464fbe4e827503a0109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPositions: {fileID: 1919135125}
-  gameManager: {fileID: 698953532}
+  gameManager: {fileID: 698953535}
 --- !u!114 &1919135124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26061,7 +26064,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ennemySpawner: {fileID: 1919135123}
-  gameManager: {fileID: 698953532}
+  _enemySpawner: {fileID: 698953535}
+  gameManager: {fileID: 698953533}
 --- !u!114 &1919135125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26077,7 +26081,7 @@ MonoBehaviour:
   SpawnOnStart: 2
   SpawnObject: {fileID: 340973427222162399, guid: 85f2e6bee59210648b3e64c2f33eb4ac,
     type: 3}
-  SpawnAmount: 8
+  SpawnAmount: 0
   MaxIterations: 1000
   SpawnLocations: 3
   Labels: 1

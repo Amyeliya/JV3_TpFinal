@@ -15,6 +15,8 @@ public class enemySpawner : MonoBehaviour
     [SerializeField] private EnnemySpawner ennemySpawnerCastor;
     [SerializeField] private EnnemySpawner ennemySpawnerCamion;
 
+    [SerializeField] private LevelData levelData;
+
     public void spawnEnemy()
     {
         if (enemiesSpawning == true)
@@ -44,17 +46,18 @@ public class enemySpawner : MonoBehaviour
     {
         if (wave2Done == false)
         {
-        _interval = 0.1f;
-        enemyCount = -20;
-        enemiesKilled = -20;
-        InvokeRepeating("spawnEnemy", 4f, _interval);
-        enemiesSpawning = true;
-        wave2Done = true;
-        Debug.Log("Wave 2 starts now");
+            _interval = 0.1f;
+            enemyCount = -20;
+            enemiesKilled = -20;
+            InvokeRepeating("spawnEnemy", 4f, _interval);
+            enemiesSpawning = true;
+            wave2Done = true;
+            Debug.Log("Wave 2 starts now");
+            levelData.wave +=1;
         }
     }
 
-    public void Start() {
+    private void Start() {
         InvokeRepeating("spawnEnemy", 0f, _interval);
     }
 

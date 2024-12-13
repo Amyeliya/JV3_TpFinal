@@ -4,21 +4,31 @@ using UnityEngine;
 
 public class EnnemyWaveManager : MonoBehaviour
 {
-   [SerializeField] EnnemySpawner ennemySpawner;
-   [SerializeField] private enemySpawner gameManager;
+   [SerializeField] private EnnemySpawner ennemySpawner;
+   [SerializeField] private enemySpawner _enemySpawner;
+   [SerializeField] private GameManager gameManager;   
+
+
  
     void Start()
     {
-        InvokeRepeating("decompte", 1f, 3f);
-        StartCoroutine(StopInvokeAfterTime(15f));
+       
+
         
-        InvokeRepeating("decompte2", 10f, 1f);
-        StartCoroutine(StopInvokeAfterTime2(50f));
- 
     }
     void Update()
     {
-        if (gameManager.enemyCount == 25)
+        if (gameManager.gamefirstStart) { 
+            InvokeRepeating("decompte", 1f, 3f);
+            StartCoroutine(StopInvokeAfterTime(15f));
+        
+            InvokeRepeating("decompte2", 10f, 1f);
+            StartCoroutine(StopInvokeAfterTime2(50f));
+
+            gameManager.gamefirstStart = false;
+        }
+
+        if (_enemySpawner.enemyCount == 25)
         {
             CancelInvoke("decompte");
             Debug.Log("CancelInvboke was called ewofhwdfhwdikjfdoufisfujdhfikjsdfosjdhfdsjhf");

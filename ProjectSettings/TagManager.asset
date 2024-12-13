@@ -11,6 +11,9 @@ TagManager:
   - Enemy
   - Ally
   - MainTower
+  - GameManager
+  - CastorSpawner
+  - CamionSpawner
   layers:
   - Default
   - TransparentFX
