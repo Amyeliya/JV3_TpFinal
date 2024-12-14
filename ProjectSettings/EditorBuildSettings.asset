@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ScenesSandBox/AmyeliyaSandBoxAssets/TowerDefence_Vsquad/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/AcceuilJeu.unity
+    guid: 18cfb8ef48ce0a7468d68f8a1079ab52
+  - enabled: 1
+    path: Assets/Scenes/SceneJeu.unity
+    guid: ecaf76c167e003647848f596a9bcd40e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: df22e89c5b1490f47bade77b5dc115fe,
       type: 2}
