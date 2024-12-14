@@ -9,6 +9,7 @@ public class WaveAndSpawnManager : MonoBehaviour
     [SerializeField] private GameManager gameManager;                // Gestionnaire principal
     [SerializeField] private LevelData levelData;                    // Données du niveau
 
+
     private bool wave1Started = false;
     private bool wave2Started = false;
 
@@ -64,7 +65,6 @@ public class WaveAndSpawnManager : MonoBehaviour
     {
         if (spawner == null)
         {
-            Debug.LogError($"{enemyType} spawner is not assigned!");
             yield break;
         }
 
@@ -72,7 +72,6 @@ public class WaveAndSpawnManager : MonoBehaviour
         {
             if (spawner.SpawnObject == null)
             {
-                Debug.LogError($"{enemyType} SpawnObject is null! Assign a prefab in FindSpawnPositions.");
                 yield break;
             }
 
@@ -85,23 +84,17 @@ public class WaveAndSpawnManager : MonoBehaviour
             }
 
             levelData.ennemiesCount++;
-            Debug.Log($"{enemyType} spawned. Total: {levelData.ennemiesCount}");
 
             yield return new WaitForSeconds(interval); // Attendre avant le prochain spawn
         }
-
-        Debug.Log($"Finished spawning {maxSpawns} {enemyType}s.");
     }
 
     // Méthode pour appeler lorsqu'un ennemi est tué
     public void OnEnemyKilled()
     {
-        Debug.Log("Enemy killed!");
-
         if (wave1Started && !wave2Started)
         {
             enemiesKilledWave1++;
-            Debug.Log($"Enemies killed in Wave 1: {enemiesKilledWave1}/{maxEnemiesWave1}");
         }
     }
 }

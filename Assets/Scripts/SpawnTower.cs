@@ -95,22 +95,18 @@ public class SpawnTower : MonoBehaviour
     {
          if (mainTowerPrefab == null)
     {
-        Debug.LogError("mainTowerPrefab n'est pas assigné !");
         return;
     }
 
     GameObject tower = Instantiate(mainTowerPrefab, hitPoint, Quaternion.identity);
-    Debug.Log($"Tour principale instanciée : {tower.name}");
 
     GameEndManager gameEndManager = FindObjectOfType<GameEndManager>();
     if (gameEndManager == null)
     {
-        Debug.LogError("Aucun GameEndManager trouvé dans la scène !");
         return;
     }
 
     gameEndManager.SetMainTower(tower);
-    Debug.Log("Tour principale assignée au GameEndManager.");
 
     mainTowerPlaced = true;
     }
@@ -123,12 +119,10 @@ public class SpawnTower : MonoBehaviour
     public void SelectTower01()
     {
         selectedTowerPrefab = TowerPrefab01;
-        Debug.Log("Tour secondaire 1 sélectionnée !");
     }
 
     public void SelectTower02()
     {
         selectedTowerPrefab = TowerPrefab02;
-        Debug.Log("Tour secondaire 2 sélectionnée !");
     }
 }

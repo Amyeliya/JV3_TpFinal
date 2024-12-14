@@ -1,18 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private LevelData levelData;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    //[SerializeField] private TextMeshProUGUI waveText;
+
+    private void Start()
     {
-        
+        UpdateUI();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateUI()
     {
-        
+        scoreText.text = levelData.score.ToString("D3");
+        //waveText.text = $"{levelData.wave}";
     }
 }
