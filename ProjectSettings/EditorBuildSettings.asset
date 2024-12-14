@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneJeu.unity
     guid: ecaf76c167e003647848f596a9bcd40e
+  - enabled: 1
+    path: Assets/Scenes/FinJeuDefaite.unity
+    guid: 76167e7490cf1344d986364cbd292010
+  - enabled: 1
+    path: Assets/Scenes/FinJeuVictoire.unity
+    guid: 255afe41b7a8d36429c9fa4d1b6d9abe
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: df22e89c5b1490f47bade77b5dc115fe,
       type: 2}

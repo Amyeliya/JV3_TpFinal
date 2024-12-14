@@ -5,139 +5,130 @@ using TMPro;
 
 public class SpawnTower : MonoBehaviour
 {
-   
     [Header("Raycast Settings")]
-    [Tooltip("Point de d�part du rayon pour d�tecter les ancres.")]
     [SerializeField] private Transform rayStartPoint;
-
-    [Tooltip("Longueur maximale du rayon.")]
     [SerializeField] private float rayLength = 20.0f;
-
-    [Tooltip("Filtre des �tiquettes des ancres � d�tecter.")]
     [SerializeField] private MRUKAnchor.SceneLabels labelFlag;
 
     [Header("Gizmo Display")]
-    [Tooltip("Objet Gizmo affich� � l'emplacement de l'ancre d�tect�e.")]
     [SerializeField] private GameObject gizmoDisplay;
-
-    [Tooltip("Texte affich� sur le Gizmo.")]
     [SerializeField] private TextMeshPro gizmoLabelText;
-
-    [Tooltip("D�termine si le texte du Gizmo est visible.")]
     [SerializeField] private bool showGizmoLabelText;
 
-    [Header("Tower Spawn")]
-    [Tooltip("Pr�fabriqu� de la tour � instancier.")]
-    [SerializeField] public GameObject towerPrefab;
+    [Header("Tower Prefabs")]
+    [SerializeField] private GameObject mainTowerPrefab;
+    [SerializeField] private GameObject TowerPrefab01; // Tour secondaire 1
+    [SerializeField] private GameObject TowerPrefab02; // Tour secondaire 2
 
-    [Tooltip("Bouton utilis� pour faire appara�tre une tour.")]
+    [Header("Spawn Settings")]
     [SerializeField] private OVRInput.Button spawnButton;
 
-    // Variables priv�es
-    private MRUKRoom room; // R�f�rence � la pi�ce actuelle d�tect�e par MRUK
+    public bool mainTowerPlaced = false; // Vérifie si la tour principale est placée
+    public GameObject selectedTowerPrefab = null; // Tour sélectionnée pour le placement
+
+    private MRUKRoom room; // Référence à la pièce actuelle détectée
     private Vector3 hitPoint; // Point d'impact du rayon
 
     private void Start()
     {
-        // Initialisation : r�cup�ration de la pi�ce actuelle
         room = MRUK.Instance.GetCurrentRoom();
-
-        // Configurer la visibilit� du texte du Gizmo
         gizmoLabelText.enabled = showGizmoLabelText;
     }
 
     private void Update()
     {
-        // V�rifier si une pi�ce a �t� d�tect�e
         if (room == null)
         {
-            Debug.LogWarning("Aucune pi�ce d�tect�e.");
+            Debug.LogWarning("Aucune pièce détectée.");
             return;
         }
 
-        // G�rer le raycast pour d�tecter des ancres
         ProcessRaycast();
     }
 
-    /// <summary>
-    /// Effectue un raycast � partir du point de d�part pour d�tecter les ancres dans la sc�ne.
-    /// </summary>
     private void ProcessRaycast()
     {
         Ray ray = new Ray(rayStartPoint.position, rayStartPoint.forward);
 
-        // Lancer le rayon et v�rifier les collisions avec des ancres
         if (room.Raycast(ray, rayLength, new LabelFilter(labelFlag), out RaycastHit hitInfo, out MRUKAnchor anchor))
         {
-            // Si un objet est d�tect�, g�rer l'affichage du Gizmo
             HandleGizmoDisplay(hitInfo, anchor);
 
-            // V�rifier si l'angle du Gizmo est correct
-            if (IsGizmoPointingSkyward())
+            if (IsGizmoPointingSkyward() && OVRInput.GetDown(spawnButton, OVRInput.Controller.RTouch))
             {
-                HandleControllerAction(OVRInput.Controller.RTouch);
+                if (!mainTowerPlaced)
+                {
+                    PlaceMainTower();
+                }
+                else if (selectedTowerPrefab != null)
+                {
+                    PlaceSecondaryTower();
+                }
+                else
+                {
+                    Debug.LogWarning("Aucune tour secondaire sélectionnée !");
+                }
             }
         }
         else
         {
-            // D�sactiver le Gizmo si aucun objet n'est d�tect�
             gizmoDisplay.SetActive(false);
         }
     }
 
-    /// <summary>
-    /// Active et configure l'affichage du Gizmo en fonction de l'objet d�tect�.
-    /// </summary>
-    /// <param name="hitInfo">Informations sur l'impact du rayon.</param>
-    /// <param name="anchor">Ancre d�tect�e par le raycast.</param>
     private void HandleGizmoDisplay(RaycastHit hitInfo, MRUKAnchor anchor)
     {
         gizmoDisplay.SetActive(true);
-
-        // Positionner et orienter le Gizmo
         hitPoint = hitInfo.point;
         gizmoDisplay.transform.position = hitPoint;
         gizmoDisplay.transform.rotation = Quaternion.LookRotation(-hitInfo.normal);
-
-        // Mettre � jour le texte affich�
         gizmoLabelText.text = $"Anchor: {anchor.Label}";
     }
 
-    /// <summary>
-    /// V�rifie si le Gizmo pointe dans une direction "ciel".
-    /// </summary>
-    /// <returns>True si l'angle est dans les limites acceptables.</returns>
     private bool IsGizmoPointingSkyward()
     {
         float rotationXGizmo = gizmoDisplay.transform.rotation.eulerAngles.x;
-        const float minAngle = 89.0f;
-        const float maxAngle = 91.0f;
-
-        // V�rifier si l'angle est dans la plage accept�e
-        if (rotationXGizmo >= minAngle && rotationXGizmo <= maxAngle)
-        {
-            Debug.LogWarning("L'objet pointe vers le ciel !");
-            return true;
-        }
-        else
-        {
-            Debug.LogWarning("L'objet ne pointe pas vers le ciel.");
-            return false;
-        }
+        return rotationXGizmo >= 89.0f && rotationXGizmo <= 91.0f;
     }
 
-    /// <summary>
-    /// G�re les actions effectu�es par le contr�leur lorsqu'un bouton est press�.
-    /// </summary>
-    /// <param name="controller">Contr�leur utilis� pour l'interaction.</param>
-    private void HandleControllerAction(OVRInput.Controller controller)
+    private void PlaceMainTower()
     {
-        // V�rifier si le bouton de cr�ation de tour est press�
-        if (OVRInput.GetDown(spawnButton, controller))
-        {
-            Instantiate(towerPrefab, hitPoint, Quaternion.identity);
-        }
+         if (mainTowerPrefab == null)
+    {
+        Debug.LogError("mainTowerPrefab n'est pas assigné !");
+        return;
+    }
+
+    GameObject tower = Instantiate(mainTowerPrefab, hitPoint, Quaternion.identity);
+    Debug.Log($"Tour principale instanciée : {tower.name}");
+
+    GameEndManager gameEndManager = FindObjectOfType<GameEndManager>();
+    if (gameEndManager == null)
+    {
+        Debug.LogError("Aucun GameEndManager trouvé dans la scène !");
+        return;
+    }
+
+    gameEndManager.SetMainTower(tower);
+    Debug.Log("Tour principale assignée au GameEndManager.");
+
+    mainTowerPlaced = true;
+    }
+
+    private void PlaceSecondaryTower()
+    {
+        Instantiate(selectedTowerPrefab, hitPoint, Quaternion.identity);
+    }
+
+    public void SelectTower01()
+    {
+        selectedTowerPrefab = TowerPrefab01;
+        Debug.Log("Tour secondaire 1 sélectionnée !");
+    }
+
+    public void SelectTower02()
+    {
+        selectedTowerPrefab = TowerPrefab02;
+        Debug.Log("Tour secondaire 2 sélectionnée !");
     }
 }
-
-

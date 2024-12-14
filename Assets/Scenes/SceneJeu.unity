@@ -9356,6 +9356,7 @@ GameObject:
   - component: {fileID: 698953534}
   - component: {fileID: 698953533}
   - component: {fileID: 698953536}
+  - component: {fileID: 698953537}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -9409,6 +9410,23 @@ MonoBehaviour:
   spawnPositionsCamion: {fileID: 1919135125}
   gameManager: {fileID: 698953533}
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
+--- !u!114 &698953537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698953531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f9ab45c190d504c83746f7dfdfc1d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 698953533}
+  levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
+  maxEnemiesWave2: 20
+  sceneVictoire: FinJeuVictoire
+  sceneDefaite: FinJeuDefaite
 --- !u!1 &698960502
 GameObject:
   m_ObjectHideFlags: 0
@@ -14390,7 +14408,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1017567331}
         m_TargetAssemblyTypeName: TowerButton, Assembly-CSharp
-        m_MethodName: TowerAppear
+        m_MethodName: SelectSecondaryTower
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 7950897509724691795, guid: e556db10cdb2fbd4b95389def33a0c09,
@@ -25100,7 +25118,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1888458488}
         m_TargetAssemblyTypeName: TowerButton, Assembly-CSharp
-        m_MethodName: TowerAppear
+        m_MethodName: SelectSecondaryTower
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 675001810731519289, guid: 3f4d61b8478fba6468e581f53374f29a,
@@ -25846,8 +25864,15 @@ MonoBehaviour:
   gizmoDisplay: {fileID: 2121178247}
   gizmoLabelText: {fileID: 1070637969}
   showGizmoLabelText: 0
-  towerPrefab: {fileID: 0}
+  mainTowerPrefab: {fileID: 1502364749578668165, guid: 5bf67439a9d75d24486e0f7222ca58b9,
+    type: 3}
+  TowerPrefab01: {fileID: 7950897509724691795, guid: e556db10cdb2fbd4b95389def33a0c09,
+    type: 3}
+  TowerPrefab02: {fileID: 675001810731519289, guid: 3f4d61b8478fba6468e581f53374f29a,
+    type: 3}
   spawnButton: 8192
+  mainTowerPlaced: 0
+  selectedTowerPrefab: {fileID: 0}
 --- !u!4 &1918541212
 Transform:
   m_ObjectHideFlags: 0

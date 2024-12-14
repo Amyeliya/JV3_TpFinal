@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class TowerButton : MonoBehaviour
 {
-    [SerializeField] SpawnTower spawnTower;
+    [SerializeField] private SpawnTower spawnTower;
 
-    public void TowerAppear(GameObject towerPrefab)
+    public void SelectSecondaryTower(GameObject towerPrefab)
     {
-        spawnTower.towerPrefab = towerPrefab;
+        if (spawnTower == null)
+        {
+            return;
+        }
+
+        if (!spawnTower.mainTowerPlaced)
+        {
+            return;
+        }
+
+        spawnTower.selectedTowerPrefab = towerPrefab;
     }
 }
