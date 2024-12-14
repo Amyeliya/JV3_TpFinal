@@ -9,7 +9,11 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] public int enemyHealth = 225;
     [SerializeField] public LevelData levelData;
 
+    private UIManager uiManager;
+
     private void Start() {
+    uiManager = FindObjectOfType<UIManager>();
+
     Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
         detectionRange = 100f;
         if (enemyData.isRangedEnemy == true)
@@ -73,6 +77,8 @@ public class EnemyManager : MonoBehaviour
             //particleSystem.Play();
             levelData.score +=5;
             levelData.ennemiesCount -= 1;
+            uiManager.UpdateUI();
+
             FindObjectOfType<WaveAndSpawnManager>().OnEnemyKilled();
             Destroy(gameObject);
         }
