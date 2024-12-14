@@ -72,6 +72,8 @@ public class EnemyManager : MonoBehaviour
         {
             //particleSystem.Play();
             levelData.score +=5;
+            levelData.ennemiesCount -= 1;
+            FindObjectOfType<WaveAndSpawnManager>().OnEnemyKilled();
             Destroy(gameObject);
         }
     }

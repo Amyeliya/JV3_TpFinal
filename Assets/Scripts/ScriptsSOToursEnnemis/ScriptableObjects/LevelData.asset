@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   wave: 1
+  ennemiesCount: 0

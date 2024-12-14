@@ -10,4 +10,6 @@ public class LevelData : ScriptableObject
 
     [SerializeField] public int wave;
 
+    [SerializeField] public int ennemiesCount;
+
 }

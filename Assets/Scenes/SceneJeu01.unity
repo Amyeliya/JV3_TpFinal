@@ -8491,8 +8491,6 @@ GameObject:
   m_Component:
   - component: {fileID: 639544156}
   - component: {fileID: 639544157}
-  - component: {fileID: 639544160}
-  - component: {fileID: 639544159}
   m_Layer: 0
   m_Name: CastorSpawner
   m_TagString: CastorSpawner
@@ -8540,35 +8538,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   SurfaceClearanceDistance: 0.1
---- !u!114 &639544159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639544153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e73ba35b4f3464fbe4e827503a0109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPositions: {fileID: 639544157}
-  gameManager: {fileID: 698953535}
---- !u!114 &639544160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639544153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edc84cff738274842bd8bc5db395359c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ennemySpawner: {fileID: 639544159}
-  _enemySpawner: {fileID: 698953535}
-  gameManager: {fileID: 698953533}
 --- !u!1 &641968925
 GameObject:
   m_ObjectHideFlags: 0
@@ -9386,7 +9355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698953534}
   - component: {fileID: 698953533}
-  - component: {fileID: 698953535}
+  - component: {fileID: 698953536}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -9406,6 +9375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770fbb2348d7e184aa5736ef6281d0de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
+  tourPrincipalePlaced: 0
   gamefirstStart: 0
 --- !u!4 &698953534
 Transform:
@@ -9415,14 +9386,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698953531}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1514617952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &698953535
+--- !u!114 &698953536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9431,16 +9402,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 698953531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8522e418f842fa94084babb9489719a6, type: 3}
+  m_Script: {fileID: 11500000, guid: b8fecdeeb19e6b045a6e5810b733be30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interval: 0.2
-  enemyCount: 0
-  enemiesSpawning: 1
-  enemiesKilled: 0
-  wave2Done: 1
-  ennemySpawnerCastor: {fileID: 639544159}
-  ennemySpawnerCamion: {fileID: 1919135123}
+  spawnPositionsCastor: {fileID: 639544157}
+  spawnPositionsCamion: {fileID: 1919135125}
+  gameManager: {fileID: 698953533}
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
 --- !u!1 &698960502
 GameObject:
@@ -12399,37 +12366,6 @@ MonoBehaviour:
   m_Spacing: {x: 5, y: 5}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &920017620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 920017621}
-  m_Layer: 0
-  m_Name: TourPrincipale (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &920017621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 920017620}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &926848764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15516,37 +15452,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2047896070}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1101623531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1101623532}
-  m_Layer: 0
-  m_Name: TourRocket
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1101623532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101623531}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103684033
 GameObject:
@@ -20543,6 +20448,7 @@ Transform:
   m_Children:
   - {fileID: 1918541212}
   - {fileID: 2121178248}
+  - {fileID: 698953534}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1519208356
@@ -24127,6 +24033,7 @@ Transform:
   - {fileID: 1161923488}
   - {fileID: 505241071}
   - {fileID: 934345956}
+  - {fileID: 1930441339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1834703596
@@ -24527,37 +24434,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 1131358334}
   _syntheticHand: {fileID: 0}
---- !u!1 &1846491751
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1846491752}
-  m_Layer: 0
-  m_Name: TourCanon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1846491752
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846491751}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847009592
 GameObject:
   m_ObjectHideFlags: 0
@@ -26028,8 +25904,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1919135126}
   - component: {fileID: 1919135125}
-  - component: {fileID: 1919135124}
-  - component: {fileID: 1919135123}
   m_Layer: 0
   m_Name: CamionSpawner
   m_TagString: CamionSpawner
@@ -26037,35 +25911,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1919135123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919135122}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e73ba35b4f3464fbe4e827503a0109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPositions: {fileID: 1919135125}
-  gameManager: {fileID: 698953535}
---- !u!114 &1919135124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919135122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edc84cff738274842bd8bc5db395359c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ennemySpawner: {fileID: 1919135123}
-  _enemySpawner: {fileID: 698953535}
-  gameManager: {fileID: 698953533}
 --- !u!114 &1919135125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26357,12 +26202,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930441336}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1832640235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1931537349
 GameObject:
@@ -29580,8 +29425,3 @@ SceneRoots:
   - {fileID: 1758738188}
   - {fileID: 1514617952}
   - {fileID: 1832640235}
-  - {fileID: 1930441339}
-  - {fileID: 920017621}
-  - {fileID: 1846491752}
-  - {fileID: 1101623532}
-  - {fileID: 698953534}
