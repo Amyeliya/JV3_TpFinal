@@ -1194,7 +1194,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
   targetTag: Ally
   detectionRange: 10
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 2835087175332672914}
   enemyLaunchPoint: {fileID: 5495892151447460519}
   projectileSpeed: 10
   fireInterval: 1
