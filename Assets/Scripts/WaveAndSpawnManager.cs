@@ -6,6 +6,7 @@ public class WaveAndSpawnManager : MonoBehaviour
 {
     [SerializeField] private FindSpawnPositions spawnPositionsCastor; // Spawner pour Castors
     [SerializeField] private FindSpawnPositions spawnPositionsCamion; // Spawner pour Camions
+    [SerializeField] private FindSpawnPositions spawnPositionsAvion; // Spawner pour Camions
     [SerializeField] private GameManager gameManager;                // Gestionnaire principal
     [SerializeField] private LevelData levelData;                    // Données du niveau
 
@@ -15,6 +16,7 @@ public class WaveAndSpawnManager : MonoBehaviour
 
     private float spawnIntervalCastor = 0.5f; // Intervalle de spawn pour Castors
     private float spawnIntervalCamion = 0.7f; // Intervalle de spawn pour Camions
+    private float spawnIntervalAvion = 1.5f; // Intervalle de spawn pour Avions
     private int maxEnemiesWave1 = 10;         // Nombre max d'ennemis pour la vague 1
     private int maxEnemiesWave2 = 20;         // Nombre max d'ennemis pour la vague 2
     private int enemiesSpawnedWave1 = 0;      // Total des ennemis générés pour la vague 1
@@ -45,6 +47,7 @@ public class WaveAndSpawnManager : MonoBehaviour
         // Démarrer les coroutines pour spawner Castors et Camions
         StartCoroutine(SpawnEnemies(spawnPositionsCastor, spawnIntervalCastor, maxEnemiesWave1 / 2, "Castor", true));
         StartCoroutine(SpawnEnemies(spawnPositionsCamion, spawnIntervalCamion, maxEnemiesWave1 / 2, "Camion", true));
+        StartCoroutine(SpawnEnemies(spawnPositionsAvion, spawnIntervalAvion, maxEnemiesWave1 / 2, "Camion", true));
     }
 
     private void StartWave2()
@@ -55,10 +58,12 @@ public class WaveAndSpawnManager : MonoBehaviour
         // Ajuster les intervalles pour la vague 2
         spawnIntervalCastor = 0.3f;
         spawnIntervalCamion = 0.5f;
+        spawnIntervalAvion = 1f;
 
         // Démarrer les coroutines pour la vague 2
         StartCoroutine(SpawnEnemies(spawnPositionsCastor, spawnIntervalCastor, maxEnemiesWave2 / 2, "Castor", false));
         StartCoroutine(SpawnEnemies(spawnPositionsCamion, spawnIntervalCamion, maxEnemiesWave2 / 2, "Camion", false));
+        StartCoroutine(SpawnEnemies(spawnPositionsAvion, spawnIntervalAvion, maxEnemiesWave2 / 2, "Camion", false));
     }
 
     private IEnumerator SpawnEnemies(FindSpawnPositions spawner, float interval, int maxSpawns, string enemyType, bool isWave1)

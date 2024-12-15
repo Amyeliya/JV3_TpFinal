@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoomEnnemy : MonoBehaviour
+public class SonsParticulesAvion : MonoBehaviour
 {
-
     [SerializeField] private GameObject _boom;
     [SerializeField] private AudioClip _soundClip;  
     private AudioSource _audioSource; 
@@ -13,16 +12,17 @@ public class BoomEnnemy : MonoBehaviour
     private AudioSource _audioBoom; 
 
 
-private void OnDestroy()
-{
+    private void OnDestroy()
+    {
 
-    AudioSource.PlayClipAtPoint(_soundClip, transform.position);
+        AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
-}
+    }
+
     private void OnCollisionEnter(Collision other)
     {
 
-    if(other.gameObject.tag == "Ally" ){
+        if(other.gameObject.tag == "Ally" ){
 
             Quaternion rotation = Quaternion.Euler(-90f, 0f, 0f);
 
@@ -36,6 +36,8 @@ private void OnDestroy()
 
             Destroy(gameObject);
         }
+
+        Debug.Log("=====================================================================Collided with: " + other.gameObject.name);
     
     }
 }

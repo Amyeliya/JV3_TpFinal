@@ -127,14 +127,4 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
-    private void OnCollisionEnter()
-    {
-
-    }
-    private void OnCollisionEnter(Collision other) {
-        if (enemyData.isKamikazeEnemy)
-        {
-            
-        }        
-    }
 }
