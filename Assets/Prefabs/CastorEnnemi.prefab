@@ -1091,6 +1091,7 @@ GameObject:
   - component: {fileID: 6394000848458181558}
   - component: {fileID: 139738306425315503}
   - component: {fileID: 6097776563394795446}
+  - component: {fileID: -4782253271107215129}
   m_Layer: 0
   m_Name: CastorEnnemi
   m_TagString: Enemy
@@ -1193,7 +1194,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
   targetTag: Ally
   detectionRange: 10
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 2835087175332672914}
   enemyLaunchPoint: {fileID: 5495892151447460519}
   projectileSpeed: 10
   fireInterval: 1
@@ -6009,6 +6010,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-4782253271107215129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315472154489165585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28255f22e96c5d45b0bf9ab4dea25ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boom: {fileID: 417761080263594737, guid: 043541b63dfea494f96cfa54fb827106, type: 3}
+  _soundClip: {fileID: 8300000, guid: d67de047139bfa148aae7a764c3f537b, type: 3}
+  _soundBoom: {fileID: 8300000, guid: 584b790961cfd85499b9865792033381, type: 3}
 --- !u!1 &8517673285389620953
 GameObject:
   m_ObjectHideFlags: 0

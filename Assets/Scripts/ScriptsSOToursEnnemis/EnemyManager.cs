@@ -127,14 +127,20 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
-    private void OnCollisionEnter()
-    {
 
-    }
-    private void OnCollisionEnter(Collision other) {
+    private void OnCollisionEnter(Collision other) 
+    {
+        Debug.Log("COLLISION DECTRED YAAAAAA");
         if (enemyData.isKamikazeEnemy)
         {
+        Debug.Log("COLLISION DECTRED YAAAAAA WITH KAMIKAZW ENENY    ");
             
-        }        
+            AllyTowerManager allyManager = other.gameObject.GetComponent<AllyTowerManager>();
+
+            allyManager.allyHealth -= 20;
+
+            Debug.Log(allyManager.allyHealth);
+
+        }
     }
 }

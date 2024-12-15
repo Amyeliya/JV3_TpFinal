@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3191351770824903433}
   - component: {fileID: 4875257413280878974}
   - component: {fileID: 190482375010696628}
-  - component: {fileID: 8961941688554409137}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8961941688554409137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14496344326889885}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &17336976204234071
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +94,6 @@ GameObject:
   - component: {fileID: 3190767610879907779}
   - component: {fileID: 4874710588614692276}
   - component: {fileID: 192156216208171390}
-  - component: {fileID: 8957978249951465595}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -189,27 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8957978249951465595
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17336976204234071}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &22738220826314961
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +514,6 @@ GameObject:
   - component: {fileID: 3057877510780628924}
   - component: {fileID: 5012033777310594507}
   - component: {fileID: 324976424581929217}
-  - component: {fileID: 8825085599219574788}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -631,27 +586,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8825085599219574788
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438457452204934440}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &553237950259875299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,7 +1100,6 @@ GameObject:
   - component: {fileID: 2593748497524131790}
   - component: {fileID: 5485184008625479097}
   - component: {fileID: 942263560099606899}
-  - component: {fileID: 8351955717459591286}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -1239,27 +1172,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8351955717459591286
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118209217687285082}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &1124407479127385303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1183,6 @@ GameObject:
   - component: {fileID: 7834382139559635308}
   - component: {fileID: 1048468622009290183}
   - component: {fileID: 648692745867430656}
-  - component: {fileID: 2866192414998731458}
   m_Layer: 0
   m_Name: Mushroom_02_LOD0
   m_TagString: Untagged
@@ -1344,27 +1255,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2866192414998731458
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124407479127385303}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.22989726, z: 0.1}
-  m_Center: {x: 0, y: 0.11494863, z: 0}
 --- !u!1 &1181145323164290601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,7 +1515,6 @@ GameObject:
   - component: {fileID: 4213335459137481061}
   - component: {fileID: 7565918192674855047}
   - component: {fileID: 2251414216053423522}
-  - component: {fileID: 163333943157217709}
   m_Layer: 0
   m_Name: Flowers_01_LOD0
   m_TagString: Untagged
@@ -1698,27 +1587,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &163333943157217709
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247067200890984483}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3828378, z: 0.2}
-  m_Center: {x: 0, y: 0.1818975, z: 0}
 --- !u!1 &1252986852347004741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,6 +1853,7 @@ GameObject:
   - component: {fileID: 1780821706628350840}
   - component: {fileID: 7297313545997216747}
   - component: {fileID: 8270633629289765218}
+  - component: {fileID: -1223436112272515658}
   m_Layer: 0
   m_Name: TourPrincipale
   m_TagString: Ally
@@ -2068,6 +1937,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994a39c3c219f3a4cb319fcfedae6d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &-1223436112272515658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502364749578668165}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1566066224313602828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2089,6 @@ GameObject:
   - component: {fileID: 4231409519645966351}
   - component: {fileID: 6150067460836104824}
   - component: {fileID: 1465274861241595570}
-  - component: {fileID: 7687151395726526391}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -2266,27 +2161,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7687151395726526391
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640024215816252059}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &1748899330482296176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2172,6 @@ GameObject:
   - component: {fileID: 1752038164386451956}
   - component: {fileID: 1745022520645182892}
   - component: {fileID: 1735037630659008852}
-  - component: {fileID: 1776840696154965722}
   m_Layer: 0
   m_Name: Fir_4c (2)
   m_TagString: Untagged
@@ -2371,27 +2244,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1776840696154965722
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748899330482296176}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4316123, y: 2.622136, z: 1.356235}
-  m_Center: {x: 0.047730327, y: 1.311068, z: -0.024643034}
 --- !u!1 &1772664988305293820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,7 +2255,6 @@ GameObject:
   - component: {fileID: 5627204848322954319}
   - component: {fileID: 5188700890359384089}
   - component: {fileID: 8519020964494516572}
-  - component: {fileID: 6147663472107817090}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -2476,27 +2327,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6147663472107817090
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772664988305293820}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &1915418107359424311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,7 +2421,6 @@ GameObject:
   - component: {fileID: 3969219994962178551}
   - component: {fileID: 6409767691715767168}
   - component: {fileID: 1871474056569554762}
-  - component: {fileID: 7422850773819651663}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -2664,27 +2493,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7422850773819651663
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977068493847747427}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &2043055439463018669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,7 +2587,6 @@ GameObject:
   - component: {fileID: 3528193827752536243}
   - component: {fileID: 6852007861511074500}
   - component: {fileID: 2169581241026960910}
-  - component: {fileID: 6980696428216823563}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -2852,27 +2659,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6980696428216823563
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057261332043530791}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &2062629953802248808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,7 +2727,6 @@ GameObject:
   - component: {fileID: 3601464936225348225}
   - component: {fileID: 6781128049063346422}
   - component: {fileID: 2240459949603138620}
-  - component: {fileID: 7056079288397028665}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -3014,27 +2799,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7056079288397028665
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125853612638531605}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &2155951131121667620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,7 +3090,6 @@ GameObject:
   - component: {fileID: 3728752556083047678}
   - component: {fileID: 6655935414929438345}
   - component: {fileID: 2112891374725618243}
-  - component: {fileID: 7181538592755362630}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -3399,27 +3162,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7181538592755362630
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2289312326145836650}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &2305974536704299716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3431,7 +3173,6 @@ GameObject:
   - component: {fileID: 2311855546432837184}
   - component: {fileID: 2338126387519889944}
   - component: {fileID: 2328702659706904288}
-  - component: {fileID: 2372757094715457902}
   m_Layer: 0
   m_Name: Fir_4c (4)
   m_TagString: Untagged
@@ -3504,27 +3245,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2372757094715457902
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2305974536704299716}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4316123, y: 2.622136, z: 1.356235}
-  m_Center: {x: 0.047730327, y: 1.311068, z: -0.024643034}
 --- !u!1 &2339438573901097538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3536,7 +3256,6 @@ GameObject:
   - component: {fileID: 2339438573901526626}
   - component: {fileID: 2339438573898135106}
   - component: {fileID: 2339438573899101314}
-  - component: {fileID: 2850347301909823395}
   m_Layer: 0
   m_Name: Rock_01
   m_TagString: Untagged
@@ -3609,28 +3328,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2850347301909823395
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2339438573901097538}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e9089b1db16b58f4282a94e020b9c0e8, type: 3}
 --- !u!1 &2343885959232547864
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,7 +3702,6 @@ GameObject:
   - component: {fileID: 5176293391653642985}
   - component: {fileID: 2729281215745721922}
   - component: {fileID: 2480406954483597445}
-  - component: {fileID: 912665805244682567}
   m_Layer: 0
   m_Name: Mushroom_02_LOD0
   m_TagString: Untagged
@@ -4078,27 +3774,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &912665805244682567
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2663317067851394898}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.22989726, z: 0.1}
-  m_Center: {x: 0, y: 0.11494863, z: 0}
 --- !u!1 &2775235399518648150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,7 +4044,6 @@ GameObject:
   - component: {fileID: 1331797987663665670}
   - component: {fileID: 8165219682821508946}
   - component: {fileID: 2435860972335208587}
-  - component: {fileID: 3141805812696659219}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -4442,27 +4116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3141805812696659219
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2876821894530121690}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &2882434443006163775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,7 +4127,6 @@ GameObject:
   - component: {fileID: 231594117051452025}
   - component: {fileID: 5886632814200404891}
   - component: {fileID: 2769905724627525310}
-  - component: {fileID: 4254292524043614897}
   m_Layer: 0
   m_Name: Flowers_01_LOD0
   m_TagString: Untagged
@@ -4547,27 +4199,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4254292524043614897
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2882434443006163775}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3828378, z: 0.2}
-  m_Center: {x: 0, y: 0.1818975, z: 0}
 --- !u!1 &2891322154100060284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,7 +4267,6 @@ GameObject:
   - component: {fileID: 2149641600457649687}
   - component: {fileID: 9150963258531871555}
   - component: {fileID: 3342684904363977882}
-  - component: {fileID: 2609729530107085058}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -4709,27 +4339,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2609729530107085058
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2901152512107301835}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &2921969154155972539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,7 +4350,6 @@ GameObject:
   - component: {fileID: 357647669737155887}
   - component: {fileID: 7716653968298522456}
   - component: {fileID: 3034249234162703250}
-  - component: {fileID: 6115990911277345431}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -4814,27 +4422,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6115990911277345431
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2921969154155972539}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &2963743952158431213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5164,7 +4751,6 @@ GameObject:
   - component: {fileID: 54967355786896001}
   - component: {fileID: 5927867684876522339}
   - component: {fileID: 2703619443551450694}
-  - component: {fileID: 4107223044945056329}
   m_Layer: 0
   m_Name: Flowers_01_LOD0
   m_TagString: Untagged
@@ -5237,27 +4823,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4107223044945056329
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3167710321808511943}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3828378, z: 0.2}
-  m_Center: {x: 0, y: 0.1818975, z: 0}
 --- !u!1 &3180007595445188937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,7 +4948,6 @@ GameObject:
   - component: {fileID: 15927264520026769}
   - component: {fileID: 8059478008866726118}
   - component: {fileID: 3374844220796603436}
-  - component: {fileID: 5777650198107684137}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -5456,27 +5020,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5777650198107684137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3189357901232066565}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &3291919282150481277
 GameObject:
   m_ObjectHideFlags: 0
@@ -5488,7 +5031,6 @@ GameObject:
   - component: {fileID: 8872410887366269134}
   - component: {fileID: 9022695459767768216}
   - component: {fileID: 4832184421332172253}
-  - component: {fileID: 6946267050193097731}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -5561,27 +5103,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6946267050193097731
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3291919282150481277}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3314347541768575084
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,7 +5114,6 @@ GameObject:
   - component: {fileID: 8894873230773247455}
   - component: {fileID: 9036154984783434121}
   - component: {fileID: 4854471943463024844}
-  - component: {fileID: 6933234135672164626}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -5666,27 +5186,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6933234135672164626
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3314347541768575084}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3331161201608056197
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5197,6 @@ GameObject:
   - component: {fileID: 8697775664532133942}
   - component: {fileID: 9125027201199314016}
   - component: {fileID: 4655253560753257765}
-  - component: {fileID: 7202257767279449339}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -5771,27 +5269,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7202257767279449339
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3331161201608056197}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3346003795449482187
 GameObject:
   m_ObjectHideFlags: 0
@@ -5886,7 +5363,6 @@ GameObject:
   - component: {fileID: 8725320944748851674}
   - component: {fileID: 9151523545149177228}
   - component: {fileID: 4699767599103186121}
-  - component: {fileID: 7084631216833641751}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -5959,27 +5435,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7084631216833641751
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3429645869754299497}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3459885966938302950
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,7 +5446,6 @@ GameObject:
   - component: {fileID: 7379760626816271358}
   - component: {fileID: 8052396862476021760}
   - component: {fileID: 5003165857474394166}
-  - component: {fileID: 8562298375148978603}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (2)
   m_TagString: Untagged
@@ -6064,27 +5518,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8562298375148978603
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3459885966938302950}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3503505971726162675
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,7 +5586,6 @@ GameObject:
   - component: {fileID: 1281843821417203233}
   - component: {fileID: 4379464342855004211}
   - component: {fileID: 1109579326910373959}
-  - component: {fileID: 6128609757302082976}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (5)
   m_TagString: Untagged
@@ -6226,27 +5658,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6128609757302082976
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3549263130163717250}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3572098661718714561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6315,7 +5726,6 @@ GameObject:
   - component: {fileID: 5848873522739825834}
   - component: {fileID: 3683635389631064065}
   - component: {fileID: 3788249576935829190}
-  - component: {fileID: 1897366356600209156}
   m_Layer: 0
   m_Name: Mushroom_02_LOD0
   m_TagString: Untagged
@@ -6388,27 +5798,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1897366356600209156
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3605339119425388817}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.22989726, z: 0.1}
-  m_Center: {x: 0, y: 0.11494863, z: 0}
 --- !u!1 &3665807625073374167
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,7 +5809,6 @@ GameObject:
   - component: {fileID: 7228713942950508132}
   - component: {fileID: 7081807123989985842}
   - component: {fileID: 6665311611220267895}
-  - component: {fileID: 9157707749729942185}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -6493,27 +5881,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9157707749729942185
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3665807625073374167}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3673538988608422778
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,7 +5892,6 @@ GameObject:
   - component: {fileID: 3673538988608200538}
   - component: {fileID: 3673538988611624826}
   - component: {fileID: 3673538988610624954}
-  - component: {fileID: 42128223531194467}
   m_Layer: 0
   m_Name: Rock_04
   m_TagString: Untagged
@@ -6598,28 +5964,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &42128223531194467
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3673538988608422778}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 33ebf3440b12ec245bd008cd464f8d9a, type: 3}
 --- !u!1 &3719562981627360097
 GameObject:
   m_ObjectHideFlags: 0
@@ -6631,7 +5975,6 @@ GameObject:
   - component: {fileID: 2298242140576618997}
   - component: {fileID: 8071979144168096642}
   - component: {fileID: 3533549170697580360}
-  - component: {fileID: 5760733881523166797}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -6704,27 +6047,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5760733881523166797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3719562981627360097}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &3735574503220059838
 GameObject:
   m_ObjectHideFlags: 0
@@ -6876,7 +6198,6 @@ GameObject:
   - component: {fileID: 7180277452309174434}
   - component: {fileID: 7328296994480854260}
   - component: {fileID: 6596371423995559345}
-  - component: {fileID: 8710599298211271791}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -6949,27 +6270,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8710599298211271791
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3831267887179521297}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3857459632434746049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6981,7 +6281,6 @@ GameObject:
   - component: {fileID: 6437845883439490895}
   - component: {fileID: 4609880407157190762}
   - component: {fileID: 4217316986852705844}
-  - component: {fileID: 8734491015979952737}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (1)
   m_TagString: Untagged
@@ -7054,27 +6353,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8734491015979952737
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3857459632434746049}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &3883708900080181707
 GameObject:
   m_ObjectHideFlags: 0
@@ -7482,7 +6760,6 @@ GameObject:
   - component: {fileID: 978551706592404062}
   - component: {fileID: 192305647898199448}
   - component: {fileID: 2894475153135636574}
-  - component: {fileID: 8262901564251690522}
   m_Layer: 0
   m_Name: Stump_01_LOD0
   m_TagString: Untagged
@@ -7555,27 +6832,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8262901564251690522
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4135029637020254103}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.45, y: 0.8131511, z: 0.45}
-  m_Center: {x: 0, y: 0.4065755, z: 0}
 --- !u!1 &4153129196341779693
 GameObject:
   m_ObjectHideFlags: 0
@@ -7644,7 +6900,6 @@ GameObject:
   - component: {fileID: 1572764963056640332}
   - component: {fileID: 8805104798896274235}
   - component: {fileID: 4269089558571964401}
-  - component: {fileID: 5027519786967508724}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -7717,27 +6972,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5027519786967508724
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155099218167172056}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &4171864257844863172
 GameObject:
   m_ObjectHideFlags: 0
@@ -7946,7 +7180,6 @@ GameObject:
   - component: {fileID: 1088999751873278038}
   - component: {fileID: 7797746075623384322}
   - component: {fileID: 4371431808070841051}
-  - component: {fileID: 3962735607480475459}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -8019,27 +7252,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3962735607480475459
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4218499504521368970}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &4238064286522192463
 GameObject:
   m_ObjectHideFlags: 0
@@ -8415,7 +7627,6 @@ GameObject:
   - component: {fileID: 1268909010166412743}
   - component: {fileID: 339494949282700310}
   - component: {fileID: 9148495058689709340}
-  - component: {fileID: 5735477528084680677}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (3)
   m_TagString: Untagged
@@ -8488,27 +7699,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5735477528084680677
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4487033080623225234}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &4513613072163301670
 GameObject:
   m_ObjectHideFlags: 0
@@ -8992,7 +8182,6 @@ GameObject:
   - component: {fileID: 6551194005478503592}
   - component: {fileID: 6411858641900689847}
   - component: {fileID: 1317273753320476715}
-  - component: {fileID: 6421856824250507700}
   m_Layer: 0
   m_Name: Grass_01_LOD0 (1)
   m_TagString: Untagged
@@ -9065,27 +8254,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6421856824250507700
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4691852262614491214}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &4736764254442100571
 GameObject:
   m_ObjectHideFlags: 0
@@ -9237,7 +8405,6 @@ GameObject:
   - component: {fileID: 7958157399329724118}
   - component: {fileID: 112762283227516065}
   - component: {fileID: 4655669569516003435}
-  - component: {fileID: 4496789255651594606}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -9310,27 +8477,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4496789255651594606
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4759029520126819394}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &4867245936625827407
 GameObject:
   m_ObjectHideFlags: 0
@@ -9508,7 +8654,6 @@ GameObject:
   - component: {fileID: 2066792459408864528}
   - component: {fileID: 4864630078114568716}
   - component: {fileID: 4369242847381426143}
-  - component: {fileID: 5967095227496836219}
   m_Layer: 0
   m_Name: Flowers_02_LOD0
   m_TagString: Untagged
@@ -9581,27 +8726,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5967095227496836219
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4912857490635598818}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.36221355, z: 0.2}
-  m_Center: {x: 0, y: 0.17206362, z: 0}
 --- !u!1 &4932741944116109166
 GameObject:
   m_ObjectHideFlags: 0
@@ -9670,7 +8794,6 @@ GameObject:
   - component: {fileID: 1439696484499039955}
   - component: {fileID: 1579913915814062725}
   - component: {fileID: 3158334796826526656}
-  - component: {fileID: 629923366063925790}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -9743,27 +8866,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &629923366063925790
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5004846946173674336}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &5039610227422515306
 GameObject:
   m_ObjectHideFlags: 0
@@ -9832,7 +8934,6 @@ GameObject:
   - component: {fileID: 2201936340783559556}
   - component: {fileID: 4729556882465430680}
   - component: {fileID: 4504385354903456075}
-  - component: {fileID: 5831880985515961071}
   m_Layer: 0
   m_Name: Flowers_02_LOD0
   m_TagString: Untagged
@@ -9905,27 +9006,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5831880985515961071
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5047858427047161206}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.36221355, z: 0.2}
-  m_Center: {x: 0, y: 0.17206362, z: 0}
 --- !u!1 &5058744859383083302
 GameObject:
   m_ObjectHideFlags: 0
@@ -10160,7 +9240,6 @@ GameObject:
   - component: {fileID: 5167726300667793514}
   - component: {fileID: 5174810115165725746}
   - component: {fileID: 5184515448993765578}
-  - component: {fileID: 5138490556776154948}
   m_Layer: 0
   m_Name: Fir_4c
   m_TagString: Untagged
@@ -10233,27 +9312,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5138490556776154948
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5161785367552136430}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4316123, y: 2.622136, z: 1.356235}
-  m_Center: {x: 0.047730327, y: 1.311068, z: -0.024643034}
 --- !u!1 &5184505855119928730
 GameObject:
   m_ObjectHideFlags: 0
@@ -10265,7 +9323,6 @@ GameObject:
   - component: {fileID: 8242970402928085062}
   - component: {fileID: 1247258315730787602}
   - component: {fileID: 4742990213177182923}
-  - component: {fileID: 5442170669000894291}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -10338,27 +9395,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5442170669000894291
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5184505855119928730}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &5189241360357803313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10370,7 +9406,6 @@ GameObject:
   - component: {fileID: 7239983188235530149}
   - component: {fileID: 835425524849538514}
   - component: {fileID: 5374159308235544856}
-  - component: {fileID: 3778332777729878045}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -10443,27 +9478,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3778332777729878045
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5189241360357803313}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &5271470531146995839
 GameObject:
   m_ObjectHideFlags: 0
@@ -10475,7 +9489,6 @@ GameObject:
   - component: {fileID: 2280540017915076044}
   - component: {fileID: 1851036720084980122}
   - component: {fileID: 2848640566039443679}
-  - component: {fileID: 351598211378499841}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -10548,27 +9561,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &351598211378499841
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5271470531146995839}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &5300032099018613035
 GameObject:
   m_ObjectHideFlags: 0
@@ -10663,7 +9655,6 @@ GameObject:
   - component: {fileID: 5430464638328011655}
   - component: {fileID: 5420943070183952351}
   - component: {fileID: 5411224712941368103}
-  - component: {fileID: 5450486458654960809}
   m_Layer: 0
   m_Name: Fir_4c (3)
   m_TagString: Untagged
@@ -10736,27 +9727,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5450486458654960809
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5425088298255269635}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4316123, y: 2.622136, z: 1.356235}
-  m_Center: {x: 0.047730327, y: 1.311068, z: -0.024643034}
 --- !u!1 &5435257497186097494
 GameObject:
   m_ObjectHideFlags: 0
@@ -10934,7 +9904,6 @@ GameObject:
   - component: {fileID: 8758361750669882498}
   - component: {fileID: 1918600130287935958}
   - component: {fileID: 5349544131528570383}
-  - component: {fileID: 4641349815501101975}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -11007,27 +9976,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4641349815501101975
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5484270438010229086}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &5666643914170945322
 GameObject:
   m_ObjectHideFlags: 0
@@ -11039,7 +9987,6 @@ GameObject:
   - component: {fileID: 1742307055283800729}
   - component: {fileID: 2178550417072555727}
   - component: {fileID: 2306854120343039882}
-  - component: {fileID: 246238571040458324}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -11112,27 +10059,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &246238571040458324
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5666643914170945322}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &5821847081043191530
 GameObject:
   m_ObjectHideFlags: 0
@@ -11367,7 +10293,6 @@ GameObject:
   - component: {fileID: 514072407400403288}
   - component: {fileID: 86823106258459918}
   - component: {fileID: 4543048669108515915}
-  - component: {fileID: 2046148827905957269}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -11440,27 +10365,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2046148827905957269
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5885157658012325099}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &5931246282508151360
 GameObject:
   m_ObjectHideFlags: 0
@@ -12029,7 +10933,6 @@ GameObject:
   - component: {fileID: 308967532358043726}
   - component: {fileID: 170999706127565848}
   - component: {fileID: 4352677112981548381}
-  - component: {fileID: 2237893124285285507}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -12102,27 +11005,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2237893124285285507
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5964931676483374589}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &6058077091334794982
 GameObject:
   m_ObjectHideFlags: 0
@@ -12331,7 +11213,6 @@ GameObject:
   - component: {fileID: 6210327420514826448}
   - component: {fileID: 6210327420513499376}
   - component: {fileID: 6210327420512401968}
-  - component: {fileID: 2468727399147025929}
   m_Layer: 0
   m_Name: Rock_05
   m_TagString: Untagged
@@ -12404,28 +11285,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2468727399147025929
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210327420514395376}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: fa2e670bb3648a84b9df8d16da25b85e, type: 3}
 --- !u!1 &6249735414158389415
 GameObject:
   m_ObjectHideFlags: 0
@@ -12437,7 +11296,6 @@ GameObject:
   - component: {fileID: 8845615991861189171}
   - component: {fileID: 1522324080580214852}
   - component: {fileID: 6065433715168750734}
-  - component: {fileID: 3086992272307215755}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -12510,27 +11368,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3086992272307215755
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249735414158389415}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &6256785085810387947
 GameObject:
   m_ObjectHideFlags: 0
@@ -12599,7 +11436,6 @@ GameObject:
   - component: {fileID: 5215982430269873324}
   - component: {fileID: 5591415439021400065}
   - component: {fileID: 4980918273375124916}
-  - component: {fileID: 2000627862949024352}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (4)
   m_TagString: Untagged
@@ -12672,27 +11508,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2000627862949024352
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6288027015205520768}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &6345033640510170110
 GameObject:
   m_ObjectHideFlags: 0
@@ -12704,7 +11519,6 @@ GameObject:
   - component: {fileID: 7897606244717708834}
   - component: {fileID: 1058944277420249974}
   - component: {fileID: 6786777965000426671}
-  - component: {fileID: 6087599519724284215}
   m_Layer: 0
   m_Name: Mushroom_01_LOD0
   m_TagString: Untagged
@@ -12777,27 +11591,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6087599519724284215
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6345033640510170110}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3406743, z: 0.2}
-  m_Center: {x: 0, y: 0.1702209, z: 0}
 --- !u!1 &6449557157983419152
 GameObject:
   m_ObjectHideFlags: 0
@@ -12809,7 +11602,6 @@ GameObject:
   - component: {fileID: 8501419300204941700}
   - component: {fileID: 1880968080184232947}
   - component: {fileID: 6563526951275112249}
-  - component: {fileID: 2733078262204094012}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -12882,27 +11674,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2733078262204094012
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6449557157983419152}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &6470712965080664603
 GameObject:
   m_ObjectHideFlags: 0
@@ -12997,7 +11768,6 @@ GameObject:
   - component: {fileID: 8514551532997465672}
   - component: {fileID: 1857825894034639935}
   - component: {fileID: 6396392070348234997}
-  - component: {fileID: 2755922031886963184}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -13070,27 +11840,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2755922031886963184
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6508746401749548252}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &6522635092876545622
 GameObject:
   m_ObjectHideFlags: 0
@@ -13185,7 +11934,6 @@ GameObject:
   - component: {fileID: 4146459146045634127}
   - component: {fileID: 6610887586605175524}
   - component: {fileID: 6643619852607607843}
-  - component: {fileID: 8283453710727562721}
   m_Layer: 0
   m_Name: Mushroom_02_LOD0
   m_TagString: Untagged
@@ -13258,27 +12006,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8283453710727562721
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6532696895281429492}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.22989726, z: 0.1}
-  m_Center: {x: 0, y: 0.11494863, z: 0}
 --- !u!1 &6554346878327144231
 GameObject:
   m_ObjectHideFlags: 0
@@ -14042,7 +12769,6 @@ GameObject:
   - component: {fileID: 4075566363268640452}
   - component: {fileID: 7467893426501845464}
   - component: {fileID: 1766327984034878475}
-  - component: {fileID: 8569940761398589359}
   m_Layer: 0
   m_Name: Flowers_02_LOD0
   m_TagString: Untagged
@@ -14115,27 +12841,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8569940761398589359
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920927698543882294}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.36221355, z: 0.2}
-  m_Center: {x: 0, y: 0.17206362, z: 0}
 --- !u!1 &6984012815594948740
 GameObject:
   m_ObjectHideFlags: 0
@@ -14204,7 +12909,6 @@ GameObject:
   - component: {fileID: 3753612530588128103}
   - component: {fileID: 3603352162510544689}
   - component: {fileID: 881014638039365236}
-  - component: {fileID: 3409428397987585962}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -14277,27 +12981,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3409428397987585962
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7104884853337347796}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &7169026078130650700
 GameObject:
   m_ObjectHideFlags: 0
@@ -14366,7 +13049,6 @@ GameObject:
   - component: {fileID: 3824328155441277947}
   - component: {fileID: 3676222862066231213}
   - component: {fileID: 953851218947624680}
-  - component: {fileID: 3338721569913366326}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -14439,27 +13121,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3338721569913366326
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7177791835229318728}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &7184850903018789506
 GameObject:
   m_ObjectHideFlags: 0
@@ -14585,7 +13246,6 @@ GameObject:
   - component: {fileID: 1414430323010514596}
   - component: {fileID: 8937324250310179468}
   - component: {fileID: 2667762283392676259}
-  - component: {fileID: 5477369860752603464}
   m_Layer: 0
   m_Name: Grass_02_LOD0 (6)
   m_TagString: Untagged
@@ -14658,27 +13318,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5477369860752603464
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7238221286285482328}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &7238834362939092768
 GameObject:
   m_ObjectHideFlags: 0
@@ -14690,7 +13329,6 @@ GameObject:
   - component: {fileID: 5711477772421406310}
   - component: {fileID: 2144964674188816260}
   - component: {fileID: 7639611084619713185}
-  - component: {fileID: 8610811947180601006}
   m_Layer: 0
   m_Name: Flowers_01_LOD0
   m_TagString: Untagged
@@ -14763,27 +13401,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8610811947180601006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7238834362939092768}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3828378, z: 0.2}
-  m_Center: {x: 0, y: 0.1818975, z: 0}
 --- !u!1 &7361632907541727896
 GameObject:
   m_ObjectHideFlags: 0
@@ -14852,7 +13469,6 @@ GameObject:
   - component: {fileID: 405327750314309681}
   - component: {fileID: 7464077380572388506}
   - component: {fileID: 6924791170371902045}
-  - component: {fileID: 5683420323205172127}
   m_Layer: 0
   m_Name: Mushroom_02_LOD0
   m_TagString: Untagged
@@ -14925,27 +13541,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5683420323205172127
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7386995039788103050}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.22989726, z: 0.1}
-  m_Center: {x: 0, y: 0.11494863, z: 0}
 --- !u!1 &7467104998397430939
 GameObject:
   m_ObjectHideFlags: 0
@@ -15071,7 +13666,6 @@ GameObject:
   - component: {fileID: 4908012238204120366}
   - component: {fileID: 3169780349786552153}
   - component: {fileID: 7706094452456299411}
-  - component: {fileID: 1443967580421548694}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -15144,27 +13738,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1443967580421548694
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7522901436990834618}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &7612538787073586407
 GameObject:
   m_ObjectHideFlags: 0
@@ -15176,7 +13749,6 @@ GameObject:
   - component: {fileID: 7615587454847365219}
   - component: {fileID: 7626825772995134523}
   - component: {fileID: 7634844457026336963}
-  - component: {fileID: 7586566664459773773}
   m_Layer: 0
   m_Name: Fir_4c (1)
   m_TagString: Untagged
@@ -15249,27 +13821,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7586566664459773773
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7612538787073586407}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4316123, y: 2.622136, z: 1.356235}
-  m_Center: {x: 0.047730327, y: 1.311068, z: -0.024643034}
 --- !u!1 &7659270953812663412
 GameObject:
   m_ObjectHideFlags: 0
@@ -15784,7 +14335,6 @@ GameObject:
   - component: {fileID: 8031603639101942243}
   - component: {fileID: 8031603639100615107}
   - component: {fileID: 8031603639099517699}
-  - component: {fileID: 5154015607362507617}
   m_Layer: 0
   m_Name: Rock_03 (1)
   m_TagString: Untagged
@@ -15857,28 +14407,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5154015607362507617
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8031603639101453763}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 14125b656fb71fd4d9d65bfe344107ad, type: 3}
 --- !u!1 &8154726382325373341
 GameObject:
   m_ObjectHideFlags: 0
@@ -15890,7 +14418,6 @@ GameObject:
   - component: {fileID: 6724188358923449097}
   - component: {fileID: 3652574194821343614}
   - component: {fileID: 8339631443162154420}
-  - component: {fileID: 956977893788562609}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -15963,27 +14490,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &956977893788562609
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8154726382325373341}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &8194526676667838997
 GameObject:
   m_ObjectHideFlags: 0
@@ -15995,7 +14501,6 @@ GameObject:
   - component: {fileID: 6756168306007201921}
   - component: {fileID: 3612777540938662646}
   - component: {fileID: 8300121418484870716}
-  - component: {fileID: 996554157866753849}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -16068,27 +14573,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &996554157866753849
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8194526676667838997}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &8408290734051904517
 GameObject:
   m_ObjectHideFlags: 0
@@ -16100,7 +14584,6 @@ GameObject:
   - component: {fileID: 2467447352845109686}
   - component: {fileID: 2605347011237840352}
   - component: {fileID: 1878105343065058469}
-  - component: {fileID: 4141369845479064955}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -16173,27 +14656,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4141369845479064955
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8408290734051904517}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &8472192590668981188
 GameObject:
   m_ObjectHideFlags: 0
@@ -16345,7 +14807,6 @@ GameObject:
   - component: {fileID: 4707410113894676203}
   - component: {fileID: 5650790403088650541}
   - component: {fileID: 7272093805780075755}
-  - component: {fileID: 4497739405753238191}
   m_Layer: 0
   m_Name: Stump_01_LOD0
   m_TagString: Untagged
@@ -16418,27 +14879,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4497739405753238191
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8476342476347730722}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.45, y: 0.8131511, z: 0.45}
-  m_Center: {x: 0, y: 0.4065755, z: 0}
 --- !u!1 &8521265729084498952
 GameObject:
   m_ObjectHideFlags: 0
@@ -16704,7 +15144,6 @@ GameObject:
   - component: {fileID: 6087389561693527206}
   - component: {fileID: 4295116566452668113}
   - component: {fileID: 8833687243622246939}
-  - component: {fileID: 318633455412845342}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -16777,27 +15216,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &318633455412845342
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8647110648634390066}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &8679219161786941179
 GameObject:
   m_ObjectHideFlags: 0
@@ -16842,7 +15260,6 @@ GameObject:
   - component: {fileID: 6111442650300633027}
   - component: {fileID: 4265372817441166772}
   - component: {fileID: 8808332265881762174}
-  - component: {fileID: 344234313321973883}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -16915,27 +15332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &344234313321973883
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8694833954905597271}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &8716149145362827190
 GameObject:
   m_ObjectHideFlags: 0
@@ -17040,7 +15436,6 @@ GameObject:
   - component: {fileID: 6250096242654206379}
   - component: {fileID: 4133561344782697436}
   - component: {fileID: 8669854072205045526}
-  - component: {fileID: 480212348786810387}
   m_Layer: 0
   m_Name: Grass_01_LOD0
   m_TagString: Untagged
@@ -17113,27 +15508,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &480212348786810387
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8846961604740789055}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.3790605, z: 0.2}
-  m_Center: {x: 0, y: 0.18182376, z: 0}
 --- !u!1 &8903775250439600668
 GameObject:
   m_ObjectHideFlags: 0
@@ -17228,7 +15602,6 @@ GameObject:
   - component: {fileID: 3084179494394211280}
   - component: {fileID: 3232207867051485062}
   - component: {fileID: 1361011194416156355}
-  - component: {fileID: 3569682478869112605}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -17301,27 +15674,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3569682478869112605
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8954046097399606883}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &8986445226923634270
 GameObject:
   m_ObjectHideFlags: 0
@@ -17375,7 +15727,6 @@ GameObject:
   - component: {fileID: 9064516772951627804}
   - component: {fileID: 9064516772952954940}
   - component: {fileID: 9064516772954053372}
-  - component: {fileID: 6140905401347252894}
   m_Layer: 0
   m_Name: Rock_03
   m_TagString: Untagged
@@ -17448,28 +15799,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6140905401347252894
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9064516772951852092}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 14125b656fb71fd4d9d65bfe344107ad, type: 3}
 --- !u!1 &9086829785075536924
 GameObject:
   m_ObjectHideFlags: 0
@@ -17538,7 +15867,6 @@ GameObject:
   - component: {fileID: 2893946564309702623}
   - component: {fileID: 3332507694763269001}
   - component: {fileID: 1154928671619560140}
-  - component: {fileID: 3706012469464963858}
   m_Layer: 0
   m_Name: Grass_02_LOD0
   m_TagString: Untagged
@@ -17611,27 +15939,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3706012469464963858
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9126334113080709740}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.1, y: 0.19709495, z: 0.1}
-  m_Center: {x: 0, y: 0.09759848, z: 0}
 --- !u!1 &9196406512265119657
 GameObject:
   m_ObjectHideFlags: 0

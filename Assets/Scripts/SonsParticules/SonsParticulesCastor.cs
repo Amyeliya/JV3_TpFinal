@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoomEnnemy : MonoBehaviour
+public class SonsParticulesCastor : MonoBehaviour
 {
-
+  
     [SerializeField] private GameObject _boom;
     [SerializeField] private AudioClip _soundClip;  
     private AudioSource _audioSource; 

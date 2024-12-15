@@ -6994,6 +6994,14 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 
     _installationVariants: []
+--- !u!81 &505241078
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505241070}
+  m_Enabled: 1
 --- !u!1 &505812595
 GameObject:
   m_ObjectHideFlags: 0
@@ -9408,6 +9416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPositionsCastor: {fileID: 639544157}
   spawnPositionsCamion: {fileID: 1919135125}
+  spawnPositionsAvion: {fileID: 2092149346}
   gameManager: {fileID: 698953533}
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
 --- !u!114 &698953537
@@ -24860,6 +24869,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 1
       addedObject: {fileID: 505241075}
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 505241078}
     - targetCorrespondingSourceObject: {fileID: 100006, guid: 126d619cf4daa52469682f85c1378b4a,
         type: 3}
       insertIndex: -1
@@ -25980,7 +25993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1919135125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28939,6 +28952,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d952c175ec3c6554199fd744548ce50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2092149345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092149347}
+  - component: {fileID: 2092149346}
+  m_Layer: 0
+  m_Name: AvionSpawner
+  m_TagString: CamionSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2092149346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092149345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d14e43228043c04db9e374568cb89a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnOnStart: 2
+  SpawnObject: {fileID: 2796187736168722278, guid: 076749143b6472f4690be45e20e8f297,
+    type: 3}
+  SpawnAmount: 0
+  MaxIterations: 1000
+  SpawnLocations: 0
+  Labels: 0
+  CheckOverlaps: 1
+  OverrideBounds: -1
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  SurfaceClearanceDistance: 0.1
+--- !u!4 &2092149347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092149345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092490582
 GameObject:
   m_ObjectHideFlags: 0
@@ -29486,6 +29556,7 @@ SceneRoots:
   - {fileID: 382857698}
   - {fileID: 639544156}
   - {fileID: 1919135126}
+  - {fileID: 2092149347}
   - {fileID: 1902754330}
   - {fileID: 961678319}
   - {fileID: 489297537}

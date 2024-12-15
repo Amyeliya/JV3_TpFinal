@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 366288f10b84fc647a4eca7e15630e3e, type: 3}
   m_Name: KamikazeEnemyData
   m_EditorClassIdentifier: 
-  enemyHealth: 50
   fireRate: 0
   movementSpeed: 0
+  isRangedEnemy: 0
+  isKamikazeEnemy: 1
+  isPlaneEnemy: 0
+  defaultKamikazeEnemyHealth: 135
+  defaultRangedEnemyHealth: 350
+  defaultAirEnemyHealth: 50
