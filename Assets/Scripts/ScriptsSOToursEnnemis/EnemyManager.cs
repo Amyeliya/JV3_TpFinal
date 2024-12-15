@@ -127,4 +127,17 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter(Collision other) {
+        if (enemyData.isKamikazeEnemy)
+        {
+            
+            AllyTowerManager allyManager = other.gameObject.GetComponent<AllyTowerManager>();
+
+            allyManager.allyHealth -= 20;
+
+            Debug.Log(allyManager.allyHealth);
+
+        }
+    }
 }
