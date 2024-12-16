@@ -4857,6 +4857,7 @@ GameObject:
   - component: {fileID: 136522884417654972}
   - component: {fileID: 54256439225926448}
   - component: {fileID: 6151725195834896328}
+  - component: {fileID: -79649293976393373}
   m_Layer: 0
   m_Name: FeuArtifice
   m_TagString: Untagged
@@ -4993,6 +4994,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allyProjectileData: {fileID: 11400000, guid: 3a3f51146604cf6499f44cf3b8a5e0e2, type: 2}
+--- !u!114 &-79649293976393373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346145665620568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c75dca13291ca344fa0b586a71c427de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _departFeuArtifice: {fileID: 8300000, guid: 5d28fb518cf44f846a53c762126f9703, type: 3}
 --- !u!1 &1474323805535688
 GameObject:
   m_ObjectHideFlags: 0
