@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5175603381123407778}
   - component: {fileID: -3894598127440703943}
   - component: {fileID: -59686113729381039}
+  - component: {fileID: 3747803800351746472}
   m_Layer: 0
   m_Name: BouletCannon
   m_TagString: Untagged
@@ -149,6 +150,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.17
   m_Center: {x: -0.00000002980232, y: 0, z: 0.00000001490116}
+--- !u!114 &3747803800351746472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240887441953726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1acb7517d381a74b904893bbc494b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _explosionBoulet: {fileID: 8300000, guid: bbbe2e204f876ca49832f0e2cb1eff8c, type: 3}
 --- !u!1 &1420486808462880
 GameObject:
   m_ObjectHideFlags: 0
