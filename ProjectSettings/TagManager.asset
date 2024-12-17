@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Target
+  - Castle
+  - Tank
+  - enemyBug
+  - Enemy
+  - Ally
+  - MainTower
+  - GameManager
+  - CastorSpawner
+  - CamionSpawner
   layers:
   - Default
   - TransparentFX
