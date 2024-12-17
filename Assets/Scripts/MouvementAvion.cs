@@ -84,12 +84,6 @@ public class MouvementAvion : MonoBehaviour
 
     // Gradually scale the object from minScale to maxScale
     transform.localScale = Vector3.Lerp(new Vector3(minScale, minScale, minScale), new Vector3(maxScale, maxScale, maxScale), scaleFactor);
-      /* if (transform.localScale.x < maxScale)  // Ensure the object doesn't scale beyond maxScale
-        {
-            // Gradually scale the object from the initial scale to the maximum scale
-            transform.localScale = Vector3.Lerp(initialScale, new Vector3(maxScale, maxScale, maxScale),
-                (transform.position - initialScale).magnitude / (target.position - initialScale).magnitude);
-        }*/
     }
 
     // Method to make the object look at the target

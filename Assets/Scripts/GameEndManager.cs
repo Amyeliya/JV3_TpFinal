@@ -27,13 +27,6 @@ public class GameEndManager : MonoBehaviour
             Debug.Log("Condition de défaite détectée : La tour principale est détruite.");
             EndGame(false);
         }
-
-        // Vérifiez la condition de victoire
-        // if (levelData.wave == 2 && levelData.ennemiesCount <= 0)
-        // {
-        //     Debug.Log("Condition de victoire détectée : Tous les ennemis sont éliminés.");
-        //     EndGame(true);
-        // }
     }
 
     public void EndGame(bool victory)

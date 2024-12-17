@@ -17,13 +17,6 @@ private void OnCollisionEnter(Collision other)
             Destroy(gameObject);
         }
         Invoke("DestroySelf", 0.2f);
-
-    
-        /*Debug.Log("Collided with: " + other.gameObject.name);
-        
-        Debug.Log("enemy script reference is : " + enemyManager);*/
-
-       //allyProjectileDamageValue = allyProjectileData.enemyDamaging;
        
     }
 private void DestroySelf()
