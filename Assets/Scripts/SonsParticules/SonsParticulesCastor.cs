@@ -14,16 +14,21 @@ public class SonsParticulesCastor : MonoBehaviour
 
     private LevelData levelData;
 
+    private WaveAndSpawnManager waveAndSpawnManager;
 
 
     private void Start() {
-            levelData = Resources.Load<LevelData>("LevelData");
+        levelData = Resources.Load<LevelData>("LevelData");
+
+        GameObject gameManager = GameObject.Find("GameManager");
+        waveAndSpawnManager = gameManager.GetComponent<WaveAndSpawnManager>();
     }
 
 
 private void OnDestroy()
 {
 
+    waveAndSpawnManager.OnEnemyKilled();
     AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
 }
@@ -41,6 +46,8 @@ private void OnDestroy()
             AudioSource.PlayClipAtPoint(_soundBoom, transform.position);
 
             levelData.ennemiesCount--;
+
+            waveAndSpawnManager.OnEnemyKilled();
 
             Destroy(BoomInstance, 5f);
 

@@ -29,14 +29,14 @@ public class GameEndManager : MonoBehaviour
         }
 
         // Vérifiez la condition de victoire
-        if (levelData.wave == 2 && levelData.ennemiesCount <= 0)
-        {
-            Debug.Log("Condition de victoire détectée : Tous les ennemis sont éliminés.");
-            EndGame(true);
-        }
+        // if (levelData.wave == 2 && levelData.ennemiesCount <= 0)
+        // {
+        //     Debug.Log("Condition de victoire détectée : Tous les ennemis sont éliminés.");
+        //     EndGame(true);
+        // }
     }
 
-    private void EndGame(bool victory)
+    public void EndGame(bool victory)
     {
         gameEnded = true;
 
