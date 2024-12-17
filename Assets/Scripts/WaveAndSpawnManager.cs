@@ -48,7 +48,6 @@ public class WaveAndSpawnManager : MonoBehaviour
         // Transition vers la vague 2 après avoir tué tous les ennemis de la vague 1
         if (enemiesKilledWave1 >= maxEnemiesWave1)
         {
-            Debug.Log("Wave 2 startssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss");
             StartWave2();
             wave2Started = true;
         }
@@ -57,7 +56,6 @@ public class WaveAndSpawnManager : MonoBehaviour
     void LateUpdate(){
         if (levelData.wave == 2 && levelData.score >= 30)
         {
-            Debug.Log("C QUOI CA");
             gameEndManager.EndGame(true);
         }
     }
@@ -93,12 +91,6 @@ public class WaveAndSpawnManager : MonoBehaviour
 
     private IEnumerator SpawnEnemies(FindSpawnPositions spawner, float interval, int maxSpawns, string enemyType, bool isWave1, bool isWave2)
     {
-        /*
-        if (spawner == null)
-        {
-            yield break;
-        }
-        */
 
         for (int i = 0; i < maxSpawns; i++)
         {
@@ -130,8 +122,6 @@ public class WaveAndSpawnManager : MonoBehaviour
     // Méthode pour appeler lorsqu'un ennemi est tué
     public void OnEnemyKilled()
     {
-        Debug.Log("JE SUIS TUEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
-
         if(levelData.ennemiesCount <= 0){
 
             levelData.ennemiesCount = 0;
@@ -153,13 +143,6 @@ public class WaveAndSpawnManager : MonoBehaviour
         if (wave2Started)
         {
             enemiesKilledWave2++;
-
-            // Debug.Log("COUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU");
-
-            // if(enemiesKilledWave2 >= maxEnemiesWave2){
-            //     gameEndManager.EndGame(true);
-            // }
-
         }
 
     }

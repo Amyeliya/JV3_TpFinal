@@ -21,29 +21,10 @@ public class AllyTowerManager : MonoBehaviour
             allyHealth = allyData.defaultWeakAllyTowerHealth;
         }
     }
-    /*
-    private void Start() {
-    Debug.Log("Self SO reference  de l'ennemi: " + enemyData);
-        if (enemyData.isRangedEnemy == true)
-        {
-            Debug.Log(" in Start, enemy is ranged bool is true");
-            enemyData.enemyHealth = enemyData.defaultRangedEnemyHealth;
-        }
-        else
-        {
-            detectionRange = 0f;
-            enemyData.enemyHealth = enemyData.defaultKamikazeEnemyHealth;
-        }
-    }
-    */
 
     private void DeclareSelfData()
     {
         Debug.Log("Self SO reference : " + allyData);
-        /*
-        Debug.Log("Self fire rate float variable : " + allyData.fireDelay);
-        Debug.Log("Self allyHealth int variable : " + allyData.allyHealth);
-        */
     }
 
     /*===========CHATGPT CREATED PROJECTILE SHOOTER===========*/

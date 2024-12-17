@@ -2,37 +2,37 @@ using UnityEngine;
 
 public class CanvasFollowCamera : MonoBehaviour
 {
-    // Référence à la caméra principale
+    // RÃ©fÃ©rence Ã© la camÃ©ra principale
     public Camera mainCamera;
 
-    // Distance de l'UI par rapport à la caméra
+    // Distance de l'UI par rapport Ã© la camÃ©ra
     public float distanceFromCamera = 2f;
 
-    // Angle d'orientation de l'UI par rapport à la caméra (facultatif)
+    // Angle d'orientation de l'UI par rapport Ã© la camÃ©ra (facultatif)
     public Vector3 rotationOffset = Vector3.zero;
 
-    // ^Distance de l'UI par rapport à la caméra (facultatif)
+    // ^Distance de l'UI par rapport Ã© la camÃ©ra (facultatif)
     public Vector3 postionOffset = Vector3.zero;
 
 
     void Update()
     {
-        // Si la caméra principale n'est pas assignée, on récupère la caméra principale par défaut
+        // Si la camÃ©ra principale n'est pas assignÃ©e, on rÃ©cupÃ©re la camÃ©ra principale par dÃ©faut
         if (mainCamera == null)
         {
             mainCamera = Camera.main;
         }
 
-        // Placer le canvas devant la caméra en ajustant la distance
+        // Placer le canvas devant la camÃ©ra en ajustant la distance
         if (mainCamera != null)
         {
             Vector3 directionToFace = mainCamera.transform.forward;
             Vector3 newPosition = mainCamera.transform.position + directionToFace + postionOffset;
 
-            // Positionner le Canvas devant la caméra
+            // Positionner le Canvas devant la camÃ©ra
             transform.position = newPosition;
 
-            // Optionnel : Ajuster la rotation pour toujours faire face à la caméra
+            // Optionnel : Ajuster la rotation pour toujours faire face Ã© la camÃ©ra
             transform.rotation = Quaternion.LookRotation(directionToFace) * Quaternion.Euler(rotationOffset);
         }
     }
