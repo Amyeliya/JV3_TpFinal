@@ -8379,7 +8379,7 @@ GameObject:
   - component: {fileID: 624243908}
   - component: {fileID: 624243907}
   m_Layer: 4
-  m_Name: ChiffresScore
+  m_Name: ChiffresWaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9553,6 +9553,7 @@ MonoBehaviour:
   spawnPositionsAvion: {fileID: 2092149346}
   gameManager: {fileID: 698953533}
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
+  uiManager: {fileID: 0}
 --- !u!114 &698953537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15529,6 +15530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
   scoreText: {fileID: 806645928}
+  waveText: {fileID: 624243907}
 --- !u!1 &1081640005
 GameObject:
   m_ObjectHideFlags: 0
@@ -29778,7 +29780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2092149346
 MonoBehaviour:
   m_ObjectHideFlags: 0

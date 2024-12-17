@@ -4,17 +4,28 @@ using UnityEngine;
 
 public class SonsParticulesAvion : MonoBehaviour
 {
-    [SerializeField] private GameObject _boom;
     [SerializeField] private AudioClip _soundClip;  
+    [SerializeField] private GameObject _boom;
     private AudioSource _audioSource; 
 
     [SerializeField] private AudioClip _soundBoom;  
     private AudioSource _audioBoom; 
 
 
+    private LevelData levelData;
+
+    private WaveAndSpawnManager waveAndSpawnManager;
+
+    private void Start() {
+        levelData = Resources.Load<LevelData>("LevelData");
+        
+        GameObject gameManager = GameObject.Find("GameManager");
+        waveAndSpawnManager = gameManager.GetComponent<WaveAndSpawnManager>();
+    }
+
     private void OnDestroy()
     {
-
+        waveAndSpawnManager.OnEnemyKilled();
         AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
     }
@@ -31,6 +42,10 @@ public class SonsParticulesAvion : MonoBehaviour
             AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
             AudioSource.PlayClipAtPoint(_soundBoom, transform.position);
+
+            levelData.ennemiesCount--;
+
+            waveAndSpawnManager.OnEnemyKilled();
 
             Destroy(BoomInstance, 5f);
 

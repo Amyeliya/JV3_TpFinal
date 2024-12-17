@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e231e24b356277640905d97699a12b04, type: 3}
   m_Name: LevelData
   m_EditorClassIdentifier: 
-  score: 0
+  score: 30
   wave: 1
   ennemiesCount: 0

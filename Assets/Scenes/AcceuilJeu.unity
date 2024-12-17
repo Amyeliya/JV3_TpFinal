@@ -6424,6 +6424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a2fb4818a63b54fbec3cdb5b17d193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelData: {fileID: 11400000, guid: 61f4f71ef50f16a4ea7da98e8ee13447, type: 2}
 --- !u!1 &460071463
 GameObject:
   m_ObjectHideFlags: 0
@@ -13622,8 +13623,12 @@ MonoBehaviour:
   gizmoDisplay: {fileID: 1496344434}
   gizmoLabelText: {fileID: 991938271}
   showGizmoLabelText: 0
-  towerPrefab: {fileID: 0}
+  mainTowerPrefab: {fileID: 0}
+  TowerPrefab01: {fileID: 0}
+  TowerPrefab02: {fileID: 0}
   spawnButton: 8192
+  mainTowerPlaced: 0
+  selectedTowerPrefab: {fileID: 0}
 --- !u!1 &991938269
 GameObject:
   m_ObjectHideFlags: 0
