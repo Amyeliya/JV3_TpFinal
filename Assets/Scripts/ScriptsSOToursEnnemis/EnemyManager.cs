@@ -141,6 +141,20 @@ public class EnemyManager : MonoBehaviour
 
             Debug.Log(allyManager.allyHealth);
 
+            if(levelData.ennemiesCount <= 0){
+
+                levelData.ennemiesCount = 0;
+
+            }
+
+            else{
+
+                levelData.ennemiesCount--;
+        
+            }
+
+            Destroy(gameObject);
+
         }
     }
 }

@@ -6,7 +6,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private LevelData levelData;
     [SerializeField] private TextMeshProUGUI scoreText;
-    //[SerializeField] private TextMeshProUGUI waveText;
+    [SerializeField] private TextMeshProUGUI waveText;
 
     private void Start()
     {
@@ -16,6 +16,6 @@ public class UIManager : MonoBehaviour
     public void UpdateUI()
     {
         scoreText.text = levelData.score.ToString("D3");
-        //waveText.text = $"{levelData.wave}";
+        waveText.text = $"{levelData.wave}";
     }
 }

@@ -12,6 +12,14 @@ public class SonsParticulesCastor : MonoBehaviour
     [SerializeField] private AudioClip _soundBoom;  
     private AudioSource _audioBoom; 
 
+    private LevelData levelData;
+
+
+
+    private void Start() {
+            levelData = Resources.Load<LevelData>("LevelData");
+    }
+
 
 private void OnDestroy()
 {
@@ -31,6 +39,8 @@ private void OnDestroy()
             AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
             AudioSource.PlayClipAtPoint(_soundBoom, transform.position);
+
+            levelData.ennemiesCount--;
 
             Destroy(BoomInstance, 5f);
 

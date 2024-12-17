@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class SonsParticulesAvion : MonoBehaviour
 {
-    [SerializeField] private GameObject _boom;
     [SerializeField] private AudioClip _soundClip;  
+    [SerializeField] private GameObject _boom;
     private AudioSource _audioSource; 
 
     [SerializeField] private AudioClip _soundBoom;  
     private AudioSource _audioBoom; 
 
+
+    private LevelData levelData;
+
+
+    private void Start() {
+        levelData = Resources.Load<LevelData>("LevelData");
+    }
 
     private void OnDestroy()
     {
@@ -31,6 +38,8 @@ public class SonsParticulesAvion : MonoBehaviour
             AudioSource.PlayClipAtPoint(_soundClip, transform.position);
 
             AudioSource.PlayClipAtPoint(_soundBoom, transform.position);
+
+            levelData.ennemiesCount--;
 
             Destroy(BoomInstance, 5f);
 
